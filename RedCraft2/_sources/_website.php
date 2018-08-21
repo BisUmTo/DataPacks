@@ -39,6 +39,8 @@
     <li>Aggiunta compatibilità di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>calcestruzzo/concrete</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i> e <i>lana/wool</i>.</li>
     <li>Modificato il drop delle shulker, ognuna darà 2 <i>gusci di shulker/shulker shell</i>.</li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
+    <li>Aggiunto il crafting per il <i>ghiaccio/ice</i>, 9 con 1 <i>ghiaccio compatto/packed ice</i>.</li>
+    <li>Aggiunto il crafting per il <i>ghiaccio compatto/packed ice</i>, 9 con 1 <i>ghiaccio azzurro/blue ice</i>.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:config</i>.</li>
 </ul>
 <h3>Come installare il DataPack</h3>
