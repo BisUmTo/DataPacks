@@ -36,7 +36,7 @@
     <li>Aggiunto il crafting per la <i>verruca del nether/nether wart</i>, 9 con 1 <i>blocco di verruche del nether/nether wart block</i>.</li>
     <li>Aggiunto il crafting per le <i>elitre/elytra</i> con 6 <i>membrane di phantom/phantom membrane</i> e 1 <i>uovo di drago/dragon egg</i> disposti come per i pantaloni.</li>
     <li>Le <i>scatole di shulker bianche/white shulker box</i> vuote si stackerano a 64 una volta gettate a terra.</li>
-    <li>Aggiunta compatibilità di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i> e <i>lana/wool</i>.</li>
+    <li>Aggiunta compatibilità di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>calcestruzzo/concrete</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i> e <i>lana/wool</i>.</li>
     <li>Modificato il drop delle shulker, ognuna darà 2 <i>gusci di shulker/shulker shell</i>.</li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:config</i>.</li>

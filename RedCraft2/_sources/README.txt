@@ -2,7 +2,7 @@
 			  • Powered by BisUmTo •
          • http://youtube.com/BisUmTo •
 		
-			   • Versione: 1.4.0 •
+			   • Versione: 1.4.1 •
 
       • Come installare questo DataPack •
 Per avviare il predente DataPack, basta semplicemente inserire questo file .zip all'interno della cartella datapacks del mondo desiderato ed eseguire il comando /reload all'interno del gioco.
