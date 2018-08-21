@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "run": {
+          "trigger": "minecraft:summoned_entity",
+          "conditions": {
+            "entity": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        }
+      },
+	"rewards": {
+		"function": "redcraft2:addons/_respawn_trigger"
+	}
+}

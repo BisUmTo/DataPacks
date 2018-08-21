@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:brown_wool",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "redcraft2:wools"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        }
+    ]
+}
