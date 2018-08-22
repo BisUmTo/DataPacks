@@ -23,5 +23,6 @@ execute if score AfkTrigger config matches 1 run function redcraft2:addons/afktr
 execute if score RecTrigger config matches 1 run function redcraft2:addons/rectrigger
 execute if score StackableShulkerboxes config matches 1 run function redcraft2:addons/stackableshulkerbox
 execute if score FishFreezing config matches 1 run function redcraft2:addons/fishfreezing
+execute if score LiveTrigger config matches 1 run function redcraft2:addons/livetrigger
 
 execute if score TimePlayed config matches 1 as @a[nbt={SelectedItem:{id:"minecraft:clock"}}] run function redcraft2:addons/timeplayed

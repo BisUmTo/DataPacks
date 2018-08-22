@@ -20,3 +20,4 @@ scoreboard players set AfkTrigger config 1
 scoreboard players set RecTrigger config 1
 scoreboard players set StackableShulkerboxes config 1
 scoreboard players set FishFreezing config 1
+scoreboard players set LiveTrigger config 1

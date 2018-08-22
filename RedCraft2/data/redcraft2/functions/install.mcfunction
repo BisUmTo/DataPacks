@@ -57,6 +57,11 @@ scoreboard objectives add REDRECext minecraft.custom:minecraft.leave_game
 team add REDrec {"text":"REC","color":"dark_red"}
 team modify REDrec prefix {"text":"[REC] ","color":"dark_red","bold":true}
 
+scoreboard objectives add live trigger
+scoreboard objectives add REDLVEext minecraft.custom:minecraft.leave_game
+team add REDlve {"text":"LIVE","color":"dark_purple"}
+team modify REDlve prefix {"text":"[LIVE] ","color":"dark_purple","bold":true}
+
 scoreboard objectives add REDSSBstk dummy
 
 

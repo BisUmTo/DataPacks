@@ -1,8 +1,8 @@
 # redcraft2:grave/index
 
-execute as @a[scores={REDshi=1..}] at @s positioned ~ ~-1.7 ~-.626 at @e[tag=REDgr1,distance=..1] positioned ~ ~1.7 ~.2 as @e[tag=REDgri,distance=..1] run data merge entity @s {PickupDelay:0s,Age:1s,Tags:[]}
-execute as @a[scores={REDshi=1..}] at @s positioned ~ ~-1.7 ~-.626 as @e[tag=REDgr1,distance=..1,limit=1] at @s run function redcraft2:grave/delete
-execute as @a[scores={REDdth=1..}] at @s run function redcraft2:grave/summon
+execute as @a[scores={REDshi=1..},gamemode=!spectator] at @s positioned ~ ~-1.7 ~-.626 at @e[tag=REDgr1,distance=..1] positioned ~ ~1.7 ~.2 as @e[tag=REDgri,distance=..1] run data merge entity @s {PickupDelay:0s,Age:1s,Tags:[]}
+execute as @a[scores={REDshi=1..},gamemode=!spectator] at @s positioned ~ ~-1.7 ~-.626 as @e[tag=REDgr1,distance=..1,limit=1] at @s run function redcraft2:grave/delete
+execute as @a[scores={REDdth=1..},gamemode=!spectator] at @s run function redcraft2:grave/summon
 scoreboard players set @a REDdth 0
 scoreboard players set @a REDshi 0
 

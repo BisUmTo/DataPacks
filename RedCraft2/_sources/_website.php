@@ -29,7 +29,7 @@
     <li>Alla morte di ogni drago dell'end spawnato con dei cristalli, viene generato un uovo nel punto di morte.</li>
     <li>Gli arboscelli gettati su un terreno adatto si pianteranno. <b>Funzione disabilitata di default</b></li>
     <li>Comando <i>/trigger tomba</i> per rimuovere le tombe nel raggio di 3 blocchi.</li>
-    <li>Comandi <i>/trigger afk</i> e <i>/trigger rec</i> per entrare/uscire in modalit&agrave; AFK e REC.</li>
+    <li>Comandi <i>/trigger afk</i>, <i>/trigger rec</i >e <i>/trigger live</i>  per entrare/uscire in modalit&agrave; AFK, REC e LIVE.</li>
     <li>Aggiunti i crafting per il blocchi <i>"levigati"/"smooth"</i> con 4 <i>lastre/slabs</i> dello stesso tipo.</li>
     <li>Aggiunto il crafting per il <i>guscio di shulker/shulker shell</i> con 5 <i>elmei di tartaruga/turtle helmet</i> disposti come per gli elmi con un <i>frutto corale scoppiato/popped chorus fruit</i> in mezzo.</li>
     <li>Aggiunto il crafting per la <i>ragnatela/cobweb</i> con 9 <i>stringhe/strings</i>.</li>
