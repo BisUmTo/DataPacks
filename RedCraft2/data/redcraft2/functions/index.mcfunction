@@ -24,5 +24,10 @@ execute if score RecTrigger config matches 1 run function redcraft2:addons/rectr
 execute if score StackableShulkerboxes config matches 1 run function redcraft2:addons/stackableshulkerbox
 execute if score FishFreezing config matches 1 run function redcraft2:addons/fishfreezing
 execute if score LiveTrigger config matches 1 run function redcraft2:addons/livetrigger
+execute if score Magnet config matches 1 run function redcraft2:addons/magnet
+execute if score RopeLadders config matches 1 run function redcraft2:addons/ropeladders
+execute if score ColoredShulkers config matches 1 run function redcraft2:addons/coloredshulkers
+execute if score VillagerInventory config matches 1 run function redcraft2:addons/villagerinventory
+execute if score AngryVindicators config matches 1 run function redcraft2:addons/angryvindicators
 
 execute if score TimePlayed config matches 1 as @a[nbt={SelectedItem:{id:"minecraft:clock"}}] run function redcraft2:addons/timeplayed

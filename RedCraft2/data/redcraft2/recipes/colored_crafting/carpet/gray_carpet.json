@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:gray_carpet",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "redcraft2:carpets"
+        },
+        {
+            "item": "minecraft:gray_dye"
+        }
+    ]
+}

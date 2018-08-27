@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:green_carpet",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "redcraft2:carpets"
+        },
+        {
+            "item": "minecraft:cactus_green"
+        }
+    ]
+}

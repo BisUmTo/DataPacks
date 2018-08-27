@@ -21,3 +21,8 @@ scoreboard players set RecTrigger config 1
 scoreboard players set StackableShulkerboxes config 1
 scoreboard players set FishFreezing config 1
 scoreboard players set LiveTrigger config 1
+scoreboard players set Magnet config 0
+scoreboard players set RopeLadders config 1
+scoreboard players set ColoredShulkers config 1
+scoreboard players set VillagerInventory config 1
+scoreboard players set AngryVindicators config 1
