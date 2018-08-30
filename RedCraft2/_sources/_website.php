@@ -25,7 +25,7 @@
             <li>Gettando addosso ad un'armor stand che non soffre di gravit&agrave; un <i>vaso/pot</i>, essa inizier&agrave; a roteare.</li>
         </ul>
     </li>
-    <li>Gettando un <i>bastone/stick</i> su delle scale a pioli, si ruoter&agrave; di 180° e fluttuer&agrave; nel caso in cui non abbia un blocco di appoggio.</li>
+    <li>Gettando un <i>bastone/stick</i> su delle scale a pioli, si ruoter&agrave; di 180&deg; e fluttuer&agrave; nel caso in cui non abbia un blocco di appoggio.</li>
     <li>Alla morte di ogni drago dell'end spawnato con dei cristalli, viene generato un uovo nel punto di morte.</li>
     <li>Gli arboscelli gettati su un terreno adatto si pianteranno. <b>Funzione disabilitata di default</b></li>
     <li>Comando <i>/trigger tomba</i> per rimuovere le tombe nel raggio di 3 blocchi.</li>
