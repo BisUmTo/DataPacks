@@ -47,6 +47,7 @@
     <li>Gettando ad una <i>shulker/shulker</i> un colorante, essa muter&agrave; in tale colore. Per riportarla al colore originale, basta dropparle un <i>frutto corale scoppiato/popped chorus fruit</i>.</li>
     <li>Una volta rinominato un <i>difensore/vindicator</i> in "Johnny", esso rimarr&agrave; agressivo verso tutti i mob anche se rinominato in altri modi. Per riportarlo allo stato normale rinominarlo in "Unjohnny".</li>
     <li>Gettando una <i>scala a pioli/ladder</i> su una scala a pioli, si prolungher&agrave; verso il basso e fluttuer&agrave; nel caso in cui non abbia un blocco di appoggio. <small>[Concept by @Edo022]</small></li>
+    <li>Essiccando un <i>arboscello/sapling</i> nella fornace, si otterrà un <i>arboscello secco/dead bush</i>.</li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:config</i>.</li>
 </ul>
