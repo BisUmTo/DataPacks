@@ -20,9 +20,9 @@ scoreboard players enable @a 2
 scoreboard players enable @a 3
 
 # OUTPUT #
-tellraw @a[scores={0=1..}] [{"translate":"gameMode.changed"},{"translate":"gameMode.survival"}]
-tellraw @a[scores={2=1..}] [{"translate":"gameMode.changed"},{"translate":"gameMode.adventure"}]
-tellraw @a[scores={3=1..}] [{"translate":"gameMode.changed"},{"translate":"gameMode.spectator"}]
+tellraw @a[scores={0=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.survival"}]}]
+tellraw @a[scores={2=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.adventure"}]}]
+tellraw @a[scores={3=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.spectator"}]}]
 
 # RESET #
 scoreboard players set @a 0 0

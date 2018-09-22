@@ -48,6 +48,8 @@
     <li>Una volta rinominato un <i>difensore/vindicator</i> in "Johnny", esso rimarr&agrave; agressivo verso tutti i mob anche se rinominato in altri modi. Per riportarlo allo stato normale rinominarlo in "Unjohnny".</li>
     <li>Gettando una <i>scala a pioli/ladder</i> su una scala a pioli, si prolungher&agrave; verso il basso e fluttuer&agrave; nel caso in cui non abbia un blocco di appoggio. <small>[Concept by @Edo022]</small></li>
     <li>Essiccando un <i>arboscello/sapling</i> nella fornace, si otter&agrave; un <i>arboscello secco/dead bush</i>.</li>
+    <li>Modificato il crafting per i <i>mattoni/bricks</i>, ora se ne otterranno 4 anzich&egrave; 1.</li>
+    <li>Gettando una <i>sella/saddle</i> a terra rinominata "IKEA", essa si piazzer&agrave; terra e permetter&agrave; di sedersi su di essa. <i>Shift</i> per un secondo in prossimit&agrave; della sedia per rimuoverla.</li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:config</i>.</li>
 </ul>

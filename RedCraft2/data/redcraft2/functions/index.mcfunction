@@ -29,5 +29,6 @@ execute if score RopeLadders config matches 1 run function redcraft2:addons/rope
 execute if score ColoredShulkers config matches 1 run function redcraft2:addons/coloredshulkers
 execute if score VillagerInventory config matches 1 run function redcraft2:addons/villagerinventory
 execute if score AngryVindicators config matches 1 run function redcraft2:addons/angryvindicators
+execute if score SitAnywhere config matches 1 run function redcraft2:addons/sitanywere
 
 execute if score TimePlayed config matches 1 as @a[nbt={SelectedItem:{id:"minecraft:clock"}}] run function redcraft2:addons/timeplayed

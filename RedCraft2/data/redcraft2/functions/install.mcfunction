@@ -81,5 +81,10 @@ scoreboard objectives add REDMGNpos dummy
 scoreboard objectives add REDVINtlk minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add REDVINshi minecraft.custom:minecraft.sneak_time
 
+# SIT ANYWHERE #
+scoreboard objectives add REDSAWshi minecraft.custom:minecraft.sneak_time
+team add REDnoc
+team modify REDnoc collisionRule never
+
 ## CREDITS ##
 tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.13.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://youtube.com/BisUmTo\n\n","color":"gold","clickEvent":{"action":"open_url","value":"https://www.youtube.com/c/BisUmTo"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"Credita BisUmTo se stai usando questa creazione.\nNon ri-caricare questo datapack: allegaci il link del mio video!!\n\n","color":"red"}]
