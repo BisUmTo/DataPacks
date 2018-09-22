@@ -30,7 +30,7 @@
     <li>Gli arboscelli gettati su un terreno adatto si pianteranno. <b>Funzione disabilitata di default</b></li>
     <li>Comando <i>/trigger tomba</i> per rimuovere le tombe nel raggio di 3 blocchi.</li>
     <li>Comandi <i>/trigger afk</i>, <i>/trigger rec</i > e <i>/trigger live</i>  per entrare/uscire in modalit&agrave; AFK, REC e LIVE.</li>
-    <li>Aggiunti i crafting per il blocchi <i>"levigati"/"smooth"</i> con 4 <i>lastre/slabs</i> dello stesso tipo.</li>
+    <li>Aggiunti i crafting per tutte le varianti di blocchi <i>levigati/smooth</i> con 4 <i>lastre/slabs</i> dello stesso tipo.</li>
     <li>Aggiunto il crafting per il <i>guscio di shulker/shulker shell</i> con 5 <i>elmei di tartaruga/turtle helmet</i> disposti come per gli elmi con un <i>frutto corale scoppiato/popped chorus fruit</i> in mezzo.</li>
     <li>Aggiunto il crafting per la <i>ragnatela/cobweb</i> con 9 <i>stringhe/strings</i>.</li>
     <li>Aggiunto il crafting per la <i>verruca del nether/nether wart</i>, 9 con 1 <i>blocco di verruche del nether/nether wart block</i>.</li>
@@ -50,6 +50,7 @@
     <li>Essiccando un <i>arboscello/sapling</i> nella fornace, si otter&agrave; un <i>arboscello secco/dead bush</i>.</li>
     <li>Modificato il crafting per i <i>mattoni/bricks</i>, ora se ne otterranno 4 anzich&egrave; 1.</li>
     <li>Gettando una <i>sella/saddle</i> a terra rinominata "IKEA", essa si piazzer&agrave; terra e permetter&agrave; di sedersi su di essa. <i>Shift</i> per un secondo in prossimit&agrave; della sedia per rimuoverla.</li>
+    <li>Aggiunto il crafting per tutte le varianti di <i>legno scortecciato/stripped wood</i> con 4 <i>tronchi scortecciati/stripped log</i> dello stesso tipo.</li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:config</i>.</li>
 </ul>
