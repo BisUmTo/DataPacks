@@ -26,4 +26,4 @@ scoreboard players set RopeLadders config 1
 scoreboard players set ColoredShulkers config 1
 scoreboard players set VillagerInventory config 1
 scoreboard players set AngryVindicators config 1
-scoreboard players set SitAnywhere config 0
+scoreboard players set SitAnywhere config 1
