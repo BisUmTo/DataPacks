@@ -1,0 +1,34 @@
+# luckyblock:_effects/0_31/0_31
+
+execute if score RESULT Randomizer matches 0 run function luckyblock:_effects/0_31/0
+execute if score RESULT Randomizer matches 1 run function luckyblock:_effects/0_31/1
+execute if score RESULT Randomizer matches 2 run function luckyblock:_effects/0_31/2
+execute if score RESULT Randomizer matches 3 run function luckyblock:_effects/0_31/3
+execute if score RESULT Randomizer matches 4 run function luckyblock:_effects/0_31/4
+execute if score RESULT Randomizer matches 5 run function luckyblock:_effects/0_31/5
+execute if score RESULT Randomizer matches 6 run function luckyblock:_effects/0_31/6
+execute if score RESULT Randomizer matches 7 run function luckyblock:_effects/0_31/7
+execute if score RESULT Randomizer matches 8 run function luckyblock:_effects/0_31/8
+execute if score RESULT Randomizer matches 9 run function luckyblock:_effects/0_31/9
+execute if score RESULT Randomizer matches 10 run function luckyblock:_effects/0_31/10
+execute if score RESULT Randomizer matches 11 run function luckyblock:_effects/0_31/11
+execute if score RESULT Randomizer matches 12 run function luckyblock:_effects/0_31/12
+execute if score RESULT Randomizer matches 13 run function luckyblock:_effects/0_31/13
+execute if score RESULT Randomizer matches 14 run function luckyblock:_effects/0_31/14
+execute if score RESULT Randomizer matches 15 run function luckyblock:_effects/0_31/15
+execute if score RESULT Randomizer matches 16 run function luckyblock:_effects/0_31/16
+execute if score RESULT Randomizer matches 17 run function luckyblock:_effects/0_31/17
+execute if score RESULT Randomizer matches 18 run function luckyblock:_effects/0_31/18
+execute if score RESULT Randomizer matches 19 run function luckyblock:_effects/0_31/19
+execute if score RESULT Randomizer matches 20 run function luckyblock:_effects/0_31/20
+execute if score RESULT Randomizer matches 21 run function luckyblock:_effects/0_31/21
+execute if score RESULT Randomizer matches 22 run function luckyblock:_effects/0_31/22
+execute if score RESULT Randomizer matches 23 run function luckyblock:_effects/0_31/23
+execute if score RESULT Randomizer matches 24 run function luckyblock:_effects/0_31/24
+execute if score RESULT Randomizer matches 25 run function luckyblock:_effects/0_31/25
+execute if score RESULT Randomizer matches 26 run function luckyblock:_effects/0_31/26
+execute if score RESULT Randomizer matches 27 run function luckyblock:_effects/0_31/27
+execute if score RESULT Randomizer matches 28 run function luckyblock:_effects/0_31/28
+execute if score RESULT Randomizer matches 29 run function luckyblock:_effects/0_31/29
+execute if score RESULT Randomizer matches 30 run function luckyblock:_effects/0_31/30
+execute if score RESULT Randomizer matches 31 run function luckyblock:_effects/0_31/31

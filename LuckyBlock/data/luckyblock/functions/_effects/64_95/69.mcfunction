@@ -1,0 +1,3 @@
+# luckyblock:_effects/64_95/69
+
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1,tag:{CustomPotionEffects:[{Id:1,Duration:1200},{Id:3,Duration:1200},{Id:5,Duration:1200},{Id:6},{Id:8,Duration:1200},{Id:10,Duration:1200},{Id:11,Duration:1200},{Id:12,Duration:1200},{Id:13,Duration:1200},{Id:14,Duration:1200},{Id:16,Duration:1200},{Id:21,Duration:1200},{Id:22,Duration:1200},{Id:23},{Id:24,Duration:1200},{Id:26,Duration:1200},{Id:28,Duration:1200},{Id:29,Duration:1200},{Id:30,Duration:1200}],CustomPotionColor:15123200,display:{Name:"{\"text\":\"Unlucky Potion\",\"color\":\"yellow\",\"bold\":true}"}}},Motion:[.0,.3,.0]}

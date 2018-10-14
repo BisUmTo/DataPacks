@@ -1,0 +1,34 @@
+# luckyblock:_effects/32_63/32_63
+
+execute if score RESULT Randomizer matches 64 run function luckyblock:_effects/64_95/64
+execute if score RESULT Randomizer matches 65 run function luckyblock:_effects/64_95/65
+execute if score RESULT Randomizer matches 66 run function luckyblock:_effects/64_95/66
+execute if score RESULT Randomizer matches 67 run function luckyblock:_effects/64_95/67
+execute if score RESULT Randomizer matches 68 run function luckyblock:_effects/64_95/68
+execute if score RESULT Randomizer matches 69 run function luckyblock:_effects/64_95/69
+execute if score RESULT Randomizer matches 70 run function luckyblock:_effects/64_95/70
+execute if score RESULT Randomizer matches 71 run function luckyblock:_effects/64_95/71
+execute if score RESULT Randomizer matches 72 run function luckyblock:_effects/64_95/72
+execute if score RESULT Randomizer matches 73 run function luckyblock:_effects/64_95/73
+execute if score RESULT Randomizer matches 74 run function luckyblock:_effects/64_95/74
+execute if score RESULT Randomizer matches 75 run function luckyblock:_effects/64_95/75
+execute if score RESULT Randomizer matches 76 run function luckyblock:_effects/64_95/76
+execute if score RESULT Randomizer matches 77 run function luckyblock:_effects/64_95/77
+execute if score RESULT Randomizer matches 78 run function luckyblock:_effects/64_95/78
+execute if score RESULT Randomizer matches 79 run function luckyblock:_effects/64_95/79
+execute if score RESULT Randomizer matches 80 run function luckyblock:_effects/64_95/80
+execute if score RESULT Randomizer matches 81 run function luckyblock:_effects/64_95/81
+execute if score RESULT Randomizer matches 82 run function luckyblock:_effects/64_95/82
+execute if score RESULT Randomizer matches 83 run function luckyblock:_effects/64_95/83
+execute if score RESULT Randomizer matches 84 run function luckyblock:_effects/64_95/84
+execute if score RESULT Randomizer matches 85 run function luckyblock:_effects/64_95/85
+execute if score RESULT Randomizer matches 86 run function luckyblock:_effects/64_95/86
+execute if score RESULT Randomizer matches 87 run function luckyblock:_effects/64_95/87
+execute if score RESULT Randomizer matches 88 run function luckyblock:_effects/64_95/88
+execute if score RESULT Randomizer matches 89 run function luckyblock:_effects/64_95/89
+execute if score RESULT Randomizer matches 90 run function luckyblock:_effects/64_95/90
+execute if score RESULT Randomizer matches 91 run function luckyblock:_effects/64_95/91
+execute if score RESULT Randomizer matches 92 run function luckyblock:_effects/64_95/92
+execute if score RESULT Randomizer matches 93 run function luckyblock:_effects/64_95/93
+execute if score RESULT Randomizer matches 94 run function luckyblock:_effects/64_95/94
+execute if score RESULT Randomizer matches 94 run function luckyblock:_effects/64_95/95
