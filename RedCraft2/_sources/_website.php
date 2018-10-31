@@ -98,8 +98,6 @@
 <h3>Come installare il DataPack</h3>
 <p>Inserire il file .zip scaricato all'interno della cartella datapacks del mondo desiderato ed eseguire il comando <i>/reload</i> all'interno del gioco.</p>
 
-</div> <!--Cose che non si dovrebbero fare-->
-
 <br/>
 <div class="container-fluid bg-white block">
     <h2>Resouce Packs:</h2>
@@ -115,12 +113,10 @@
     <div class="card">
         <div class="card-header bg-primary text-white"><h3><i class="fas fa-brush"></i> EasyUtility</h3></div>
         <div class="card-body">
-            Piccola Resouce Pack che mette in evidenza gli oggetti che si stanno per rompere, nasconde le particelle superflue e evidenzia i minerali più rari in modo da non perdene nemmeno uno!<br/>
+            Piccola Resouce Pack che mette in evidenza gli oggetti che si stanno per rompere, nasconde le particelle superflue e evidenzia i minerali pi&ugrave; rari in modo da non perdene nemmeno uno!<br/>
             Questa Resouce Pack aggiunge, inoltre, dei modelli per far funzionare al meglio il Datapack della RedCraft2.
             <div class="clearfix"></div>
             <a class="button resourceButton" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/OneCommand/tree/master/ResourcesPack/EasyUtility&rootDirectory=false" target="_blank"><i class="fa fa-download"></i> Download</a>
         </div>
     </div>
 </div>
-
-<div> <!--Cose che non si dovrebbero fare parte 2-->
