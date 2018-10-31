@@ -10,6 +10,6 @@
         }
       },
 	"rewards": {
-		"function": "redcraft2:addons/_respawn_trigger"
+		"function": "redcraft2:src/multipledragoneggs/commands/respawn_trigger"
 	}
 }

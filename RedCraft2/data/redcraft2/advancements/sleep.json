@@ -5,6 +5,6 @@
         }
     },
 	"rewards": {
-		"function": "redcraft2:multiplayer_bed/trigger"
+		"function": "redcraft2:src/beds/commands/in_bed"
 	}
 }
