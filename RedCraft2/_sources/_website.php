@@ -21,13 +21,13 @@
         </ul>
     </li>
     <li>Impugnando un orologio viene scritto nella actionbar il tempo di gioco.</li>
-    <li>Equipaggiando ad un cavallo una armatura d'oro verr&agrave; inviata in chat al giocatore più vicino una tabella con le statistiche dal cavallo.</li>
+    <li>Equipaggiando ad un cavallo una armatura d'oro verr&agrave; inviata in chat al giocatore pi&ugrave; vicino una tabella con le statistiche dal cavallo.</li>
     <li>
         Strumenti per armor stand:
         <ul>
             <li>Gettando addosso ad un armor stand due <i>bastoni/sticks</i>, gli compariranno le braccia.</li>
             <li>Gettando addosso ad un armor stand una <i>lastra di pietra/stone slab</i>, gli scomparir&agrave; la base.</li>
-            <li>Gettando addosso ad un armor stand una <i>piuma/feather</i>, esso non soffrir&agrave; più della gravit&agrave;.</li>
+            <li>Gettando addosso ad un armor stand una <i>piuma/feather</i>, esso non soffrir&agrave; pi&ugrave; della gravit&agrave;.</li>
             <li>Gettando addosso ad un armor stand che non soffre di gravit&agrave; un <i>vaso/pot</i>, esso inizier&agrave; a roteare.</li>
             <li>Gettando addosso ad un armor stand una <i>membrana di phantom/phantom membrane</i>, esso diventer&agrave; invisibile.</li>
             <li>Gettando addosso ad un armor stand invisibile un <i>occhio di ender/ender eye</i>, esso ritorner&agrave; visibile.</li>
@@ -81,7 +81,7 @@
         Ruolo <i>BOT</i>:
         <ul>
             <li>Eseguire il comando <i>/execute as NOME run function redcraft2:src/bots/commands/join_bot</i> per assegnare il ruolo <i>BOT</i> al giocatore "NOME". <b>Solo OP</b></li>
-            <li>Aggiunto comando <i>/trigger bot</i> che permette di far eseguire azioni al BOT più vicino.</li>
+            <li>Aggiunto comando <i>/trigger bot</i> che permette di far eseguire azioni al BOT pi&ugrave; vicino.</li>
         </ul>
     </li>
     <li>
