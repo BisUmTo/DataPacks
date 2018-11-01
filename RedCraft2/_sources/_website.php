@@ -1,4 +1,4 @@
-<a id="downloadButton" class="button" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/DataPacks/tree/master/RedCraft2&rootDirectory=false" target="_blank"><i class="fa fa-download"></i> Download</a>
+<a id="downloadButton" class="button" href="https://github.com/BisUmTo/DataPacks/blob/master/RedCraft2/RedCraft2.zip?raw=true" target="_blank"><i class="fa fa-download"></i> Download</a>
 <h3>Datapack ufficiale RedCraft 2<br><small>Contenuto:</small></h3>
 <ul>
       <li>Comandi <i>/trigger 3</i>, <i>/trigger 2</i>, <i>/trigger 0</i> per cambiare gamemode.</li>
@@ -71,7 +71,7 @@
         Strumenti con le <i>targhette/name tags</i>:
         <ul>
             <li>Una volta rinominato un <i>difensore/vindicator</i> in "Johnny", esso rimarr&agrave; agressivo verso tutti i mob anche se rinominato in altri modi. Per riportarlo allo stato normale rinominarlo in "UnJohnny".</li>
-            <li>Una volta rinominato un <i>coniglio/rubbit</i> in "KillerRabbit", esso diventer&agrave; agressivo.</li>
+            <li>Una volta rinominato un <i>coniglio/rabbit</i> in "KillerRabbit", esso diventer&agrave; agressivo.</li>
             <li>Una volta rinominato un mob in "Silent", esso rimarr&agrave; silenzioso. Per riportarlo allo stato normale rinominarlo in "UnSilent".</li>
             <li>Una volta rinominato un mob in "Freeze", esso rimarr&agrave; immobilizzato. Per riportarlo allo stato normale rinominarlo in "UnFreeze".</li>
         </ul>
@@ -106,7 +106,7 @@
         <div class="card-body">
             Vuoi avere la nuova Texture Pack della 1.14 nel tuo mondo 1.13? Questa Resouce Pack &egrave; quella che fa per te!
             <div class="clearfix"></div>
-            <a class="button resourceButton" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/OneCommand/tree/master/ResourcesPack/1.14%20-%20Retrocompatibilit%C3%A0&rootDirectory=false" target="_blank"><i class="fa fa-download"></i> Download</a>
+            <a class="button resourceButton" href="https://github.com/BisUmTo/OneCommand/blob/master/ResourcesPack/1.14%20-%20Retrocompatibilit%C3%A0/1.14%20-%20Retrocompatibilit%C3%A0.zip?raw=true" target="_blank"><i class="fa fa-download"></i> Download</a>
         </div>
     </div>
     <br/>
@@ -116,7 +116,7 @@
             Piccola Resouce Pack che mette in evidenza gli oggetti che si stanno per rompere, nasconde le particelle superflue e evidenzia i minerali pi&ugrave; rari in modo da non perdene nemmeno uno!<br/>
             Questa Resouce Pack aggiunge, inoltre, dei modelli per far funzionare al meglio il Datapack della RedCraft2.
             <div class="clearfix"></div>
-            <a class="button resourceButton" href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/OneCommand/tree/master/ResourcesPack/EasyUtility&rootDirectory=false" target="_blank"><i class="fa fa-download"></i> Download</a>
+            <a class="button resourceButton" href="https://github.com/BisUmTo/OneCommand/blob/master/ResourcesPack/EasyUtility/EasyUtility.zip?raw=true" target="_blank"><i class="fa fa-download"></i> Download</a>
         </div>
     </div>
 </div>
