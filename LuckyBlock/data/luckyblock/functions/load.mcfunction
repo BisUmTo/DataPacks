@@ -2,7 +2,7 @@
 
 # CONFIG
 scoreboard objectives add config dummy
-execute unless score ConfigVersion config matches -1 run function luckyblock:config
+execute unless score ConfigVersion config matches -2 run function luckyblock:config
 
 # BREAK
 scoreboard objectives add LCKbrk minecraft.mined:minecraft.yellow_stained_glass
@@ -16,3 +16,6 @@ scoreboard objectives add LCKtmp dummy
 
 # BOW 
 scoreboard objectives add LCKbow minecraft.used:minecraft.bow
+
+# SNOWBALL
+scoreboard objectives add LCKsnw minecraft.used:minecraft.snowball

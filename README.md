@@ -3,6 +3,7 @@
 |Video|Download & Descrizione|
 |---|---|
 |[**RedCraft2**<br/><img src="https://raw.githubusercontent.com/BisUmTo/DataPacks/master/RedCraft2/_sources/image.jpeg" width="177" height="100">](https://youtu.be/KVIxcL8rNC8)|<br/>[**⇩** Download RedCraft2.zip](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/DataPacks/tree/master/RedCraft2&rootDirectory=false)<br/>Datapack ufficiale della RedCraft 2. Per scoprire il suo contentuo visita il sito [bisumto.it/redcraft2](https://bisumto.it/redcraft2)|
+|[**LuckyBlock**<br/><img src="https://raw.githubusercontent.com/BisUmTo/DataPacks/master/LuckyBlock/_sources/image.jpg" width="177" height="100">](https://youtu.be/lMDoltm69ks)|<br/>[**⇩** Download Luckyblock.zip](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/BisUmTo/DataPacks/tree/master/LuckyBlock&rootDirectory=false)<br/>LuckyBlock per Minecraft Vanilla. Per scoprire il suo contentuo visita il sito [bisumto.it/luckyblock](https://bisumto.it/luckyblock)|
 
 ### Come installare il DataPack
 1. Seleziona il mondo interessato e clicca `Modifica`.

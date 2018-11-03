@@ -25,13 +25,11 @@ execute as @e[tag=LCK87f] run data merge entity @s {Time:1}
 # 102
 execute as @a[nbt={SelectedItem:{tag:{display:{Name:"{\"text\":\"TNT Bow\",\"color\":\"dark_red\",\"bold\":true}"}}}},scores={LCKbow=1..}] at @s run function luckyblock:_effects/96_127/102_arrow
 execute as @e[tag=LCKtnt,nbt={inGround:1b}] at @s run function luckyblock:_effects/96_127/102_tnt
-# 129
-effect give @a[nbt={SelectedItem:{tag:{display:{Name:"{\"text\":\"Nvidia Pickaxe\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}}}] minecraft:haste 1 128 true
 
-# 130
-effect give @a[nbt={Inventory:[{Slot:103b,tag:{display:{Name:"{\"text\":\"Nvidia Helmet\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}}]}] minecraft:night_vision 1 1 true
-effect give @a[nbt={Inventory:[{Slot:100b,tag:{display:{Name:"{\"text\":\"Nvidia Boots\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}}]}] minecraft:speed 1 1 true
-tag @a remove LCKgod
-tag @a[nbt={Inventory:[{Slot:100b,tag:{display:{Name:"{\"text\":\"Nvidia Boots\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}},{Slot:101b,tag:{display:{Name:"{\"text\":\"Nvidia Leggings\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}},{Slot:102b,tag:{display:{Name:"{\"text\":\"Nvidia Chestplate\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}},{Slot:103b,tag:{display:{Name:"{\"text\":\"Nvidia Helmet\",\"color\":\"green\",\"bold\":true,\"italic\":false}"}}}]}] add LCKgod
-effect give @a[tag=LCKgod] minecraft:resistance 1 1 true
-effect give @a[tag=LCKgod] minecraft:regeneration 1 1 true
+# 110
+function luckyblock:_effects/96_127/110_bridge
+
+
+# RESET
+scoreboard players reset * LCKsnw
+scoreboard players reset * LCKbow
