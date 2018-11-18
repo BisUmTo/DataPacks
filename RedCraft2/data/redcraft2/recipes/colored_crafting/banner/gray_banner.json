@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+     "pattern": [
+         "###",
+         "#$#",
+         "###"
+     ],
+    "result": {
+        "item": "minecraft:gray_banner",
+        "count": 8
+    },
+    "key": {
+         "#": {
+            "item": "minecraft:gray_dye"
+        },
+          "$": {
+            "tag": "redcraft2:banners"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+     "pattern": [
+         "###",
+         "#$#",
+         "###"
+     ],
+    "result": {
+        "item": "minecraft:green_banner",
+        "count": 8
+    },
+    "key": {
+         "#": {
+
+            "tag": "redcraft2:banners"
+        },
+         "$": {
+
+            "item": "minecraft:cactus_green"
+        }
+    }
+}

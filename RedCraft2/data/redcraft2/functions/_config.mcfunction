@@ -13,7 +13,7 @@ scoreboard players set DeathCoords config 1
 scoreboard players set GamemodeChanger config 1
 scoreboard players set Graves config 1
     scoreboard players set GraveTrigger config 1
-scoreboard players set Guests config 1
+scoreboard players set Guests config 0
 scoreboard players set HorseStats config 1
 scoreboard players set Ladders config 1
     scoreboard players set FloatingLadders config 0
@@ -25,9 +25,9 @@ scoreboard players set NametagActions config 1
     scoreboard players set FreezeTag config 1
     scoreboard players set KillerRabbit config 1
     scoreboard players set SilentTag config 1
-scoreboard players set PerformanceFixes config 0
-    scoreboard players set FishDespawn config 0
-    scoreboard players set FishFreezing config 0
+scoreboard players set PerformanceFixes config 1
+    scoreboard players set FishDespawn config 1
+    scoreboard players set FishFreezing config 1
 scoreboard players set SaplingPlanting config 0
 scoreboard players set SitAnywhere config 1
 scoreboard players set StackableShulkerboxes config 1

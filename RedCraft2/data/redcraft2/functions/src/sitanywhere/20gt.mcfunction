@@ -7,4 +7,6 @@ execute at @a[scores={REDSAWshi=20..}] run kill @e[tag=REDSAWpig,distance=..1]
 scoreboard players reset @a[scores={REDSAWshi=20..}] REDSAWshi
 execute as @a at @s unless entity @e[tag=REDSAWpig,distance=..1] run scoreboard players reset @s REDSAWshi
 
-# 5 lines
+execute as @e[tag=REDSAWpig] run data merge entity @s {ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}]}
+
+# 6 lines

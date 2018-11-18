@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "result": {
+        "item": "minecraft:horn_coral",
+        "count": 8
+    },
+    "key": {
+         "#": {
+            "tag": "redcraft2:corals"
+        },
+         "$": {
+            "item": "minecraft:dandelion_yellow"
+        }
+    }
+}

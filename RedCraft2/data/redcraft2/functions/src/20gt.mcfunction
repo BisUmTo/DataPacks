@@ -22,4 +22,4 @@ execute if score TimeBar config matches 1 run function redcraft2:src/timebar/20g
 execute if score TimePlayed config matches 1 run function redcraft2:src/timeplayed/20gt
 #0# execute if score VillagerInventory config matches 1 run function redcraft2:src/villagerinventory/20gt
 
-# 15 + (11 + 10 + 17 + 4 + 8 + 38 + 11 + 2 + 11 + 14 + 6 + 5 + 39 + 26 + 18) lines
+# 15 + (11 + 12 + 17 + 4 + 8 + 38 + 11 + 2 + 11 + 14 + 6 + 6 + 39 + 26 + 18) lines

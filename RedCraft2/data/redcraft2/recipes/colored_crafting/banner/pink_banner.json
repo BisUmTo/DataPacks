@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+     "pattern": [
+         "###",
+         "#$#",
+         "###"
+     ],
+    "result": {
+        "item": "minecraft:pink_banner",
+        "count": 8
+    },
+    "key": {
+         "#": {
+            "tag": "redcraft2:banners"
+        },
+         "$": {
+            "item": "minecraft:pink_dye"
+        }
+    }
+}

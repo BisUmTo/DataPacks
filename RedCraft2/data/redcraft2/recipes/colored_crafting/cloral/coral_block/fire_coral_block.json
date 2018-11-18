@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "result": {
+        "item": "minecraft:fire_coral_block",
+        "count": 8
+    },
+    "key": {
+         "#": {
+            "tag": "redcraft2:coral_blocks"
+        },
+         "$": {
+            "item": "minecraft:rose_red"
+        }
+    }
+}
