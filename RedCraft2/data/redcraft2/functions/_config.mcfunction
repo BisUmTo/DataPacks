@@ -1,7 +1,10 @@
-# redcraft2:config
+# redcraft2:_config
 
 scoreboard players reset * config
-scoreboard players set #VERSION config 200
+scoreboard players set #VERSION config 201
+
+gamerule sendCommandFeedback false
+scoreboard players set SendCommandFeedback config 1
 
 scoreboard players set ArmorstandPlus config 1
 scoreboard players set Beds config 1
@@ -28,9 +31,11 @@ scoreboard players set NametagActions config 1
 scoreboard players set PerformanceFixes config 1
     scoreboard players set FishDespawn config 1
     scoreboard players set FishFreezing config 1
+scoreboard players set RandomKick config 1
 scoreboard players set SaplingPlanting config 0
 scoreboard players set SitAnywhere config 1
 scoreboard players set StackableShulkerboxes config 1
+scoreboard players set Stats config 1
 scoreboard players set StatusTriggers config 1
     scoreboard players set AfkTrigger config 1
     scoreboard players set LiveTrigger config 1
@@ -38,5 +43,6 @@ scoreboard players set StatusTriggers config 1
 scoreboard players set TimeBar config 1
 scoreboard players set TimePlayed config 1
 scoreboard players set VillagerInventory config 1
+scoreboard players set XPMerging config 0
 
-# 37 lines
+# 41 lines

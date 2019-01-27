@@ -1,0 +1,6 @@
+# redcraft2:src/stats/load
+
+scoreboard objectives add stats trigger
+function redcraft2:src/stats/scripts/create_scores
+
+# 1 lines

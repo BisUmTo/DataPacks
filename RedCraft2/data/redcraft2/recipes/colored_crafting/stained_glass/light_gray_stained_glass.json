@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:stained_glasses"
+            "tag": "redcraft2:not_light_gray_stained_glasses"
         },
         "$": {
             "item": "minecraft:light_gray_dye"

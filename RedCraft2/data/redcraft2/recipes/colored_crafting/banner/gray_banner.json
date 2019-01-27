@@ -10,11 +10,11 @@
         "count": 8
     },
     "key": {
-         "#": {
+         "$": {
             "item": "minecraft:gray_dye"
         },
-          "$": {
-            "tag": "redcraft2:banners"
+          "#": {
+            "tag": "redcraft2:not_gray_banners"
         }
     }
 }

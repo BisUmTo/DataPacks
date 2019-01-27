@@ -11,7 +11,9 @@ execute if score @s REDSSBstk matches 65..127 run function redcraft2:src/stackab
 execute store result entity @s Item.Count byte 1 run scoreboard players get @s REDSSBstk
 execute as @e[tag=REDSSBste] store result entity @s Item.Count byte 1 run scoreboard players get @s REDSSBstk
 
+data merge entity @s {Age:0s}
+
 tag @s remove REDSSBprv
 execute as @e[tag=REDSSBprv,limit=1] at @s run function redcraft2:src/stackshulkerboxes/brackets/1
 
-# 9 + (3 + (/)) lines
+# 10 + (4 + (/)) lines

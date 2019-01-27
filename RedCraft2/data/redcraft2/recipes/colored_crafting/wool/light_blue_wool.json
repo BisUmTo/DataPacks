@@ -6,7 +6,7 @@
     },
     "ingredients": [
         {
-            "tag": "redcraft2:wools"
+            "tag": "redcraft2:not_light_blue_wools"
         },
         {
             "item": "minecraft:light_blue_dye"

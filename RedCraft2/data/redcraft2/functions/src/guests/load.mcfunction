@@ -1,6 +1,6 @@
 # redcraft2:src/guests/load
 
-scoreboard objectives add REDTPLtme minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add REDGSTtme minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add REDGSTscc dummy
 scoreboard objectives add guest trigger
 

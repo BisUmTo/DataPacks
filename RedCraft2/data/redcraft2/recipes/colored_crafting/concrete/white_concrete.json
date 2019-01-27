@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:concretes"
+            "tag": "redcraft2:not_white_concretes"
         },
         "$": {
             "item": "minecraft:bone_meal"

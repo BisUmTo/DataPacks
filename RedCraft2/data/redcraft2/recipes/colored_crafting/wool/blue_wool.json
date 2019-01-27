@@ -6,7 +6,7 @@
     },
     "ingredients": [
         {
-            "tag": "redcraft2:wools"
+            "tag": "redcraft2:not_blue_wools"
         },
         {
             "item": "minecraft:lapis_lazuli"

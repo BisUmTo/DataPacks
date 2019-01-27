@@ -11,7 +11,7 @@
     },
     "key": {
          "#": {
-            "tag": "redcraft2:banners"
+            "tag": "redcraft2:not_black_banners"
         },
          "$": {
             "item": "minecraft:ink_sac"

@@ -31,6 +31,7 @@
             <li>Gettando addosso ad un armor stand che non soffre di gravit&agrave; un <i>vaso/pot</i>, esso inizier&agrave; a roteare.</li>
             <li>Gettando addosso ad un armor stand una <i>membrana di phantom/phantom membrane</i>, esso diventer&agrave; invisibile.</li>
             <li>Gettando addosso ad un armor stand invisibile un <i>occhio di ender/ender eye</i>, esso ritorner&agrave; visibile.</li>
+            <li>Aggiunto comando <i>/trigger armorstandplus</i> che permette di modificare la posa del supporto per armatura pi&ugrave; vicino.</li>
         </ul>
     </li>
     <li>
@@ -56,7 +57,7 @@
             <li>Aggiunto il crafting per il <i>ghiaccio compatto/packed ice</i>, 9 con 1 <i>ghiaccio azzurro/blue ice</i>.</li>
             <li>Aggiunto il crafting per tutte le varianti di <i>blocco di corallo/coral block</i> con 4 <i>corralli/corals</i> oppure <i>gorgonie/coral fans</i> del medesimo tipo.</li>
             <li>Aggiunto il crafting per tutte le varianti di <i>legno scortecciato/stripped wood</i> con 4 <i>tronchi scortecciati/stripped log</i> dello stesso tipo.</li>
-            <li>Aggiunta compatibilit&agrave; di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>calcestruzzo/concrete</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i>, <i>lana/wool</i>, <i>tappeto/carpet</i>, <i>stendardo/banner</i>, <i>corallo/coral</i>, <i>blocco di corallo/coral block</i> e <i>gorgonia/coral fan</i>.</li>
+            <li>Aggiunta compatibilit&agrave; di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>calcestruzzo/concrete</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i>, <i>lana/wool</i>, <i>tappeto/carpet</i>, <i>stendardo/banner</i>, <i>letto/bed</i>, <i>corallo/coral</i>, <i>blocco di corallo/coral block</i> e <i>gorgonia/coral fan</i>.</li>
             <li>Modificato il crafting per i <i>mattoni/bricks</i>, ora se ne otterranno 4 anzich&egrave; 1.</li>
             <li>Essiccando un <i>arboscello/sapling</i> nella fornace, si otter&agrave; un <i>arboscello secco/dead bush</i>.</li>
         </ul>
@@ -90,8 +91,11 @@
             <li>La prima volta che si entrer&agrave; in un mondo con il presente datapack, al giocatore sar&agrave; assegnato ruolo <i>guest</i>.</li>
             <li>Eseguire il comando <i>/team leave NOME</i> per rimuovere il giocatore "NOME" dal ruolo <i>guest</i>. <b>Solo OP</b></li>
             <li>I giocatori <i>guest</i> non potranno caricare nuovi chunk o utilizzare gli altri comandi aggiunti dal presente datapack.</li>
+            <li>Aggiunto comando <i>/trigger randomkick</i> che permette di cacciare un Guest casuale.</li>
         </ul>
     </li>
+    <li>Aggiunto comando <i>/trigger stats set N</i> che permette di mostrare globalmente una score N. <a href="https://raw.githubusercontent.com/BisUmTo/DataPacks/master/RedCraft2/_sources/stats-list.txt">Visualizza la lista delle score N.</a></li>
+    <li>Le <i>esperienze/experience orb</i> si stackerano quando si avvicineranno l'una all'altra. <b>Funzione disabilitata di default</b></li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:_config</i>. <b>Solo OP</b></li>
 </ul>

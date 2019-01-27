@@ -1,13 +1,13 @@
 # redcraft2:src/magnets/1gt
 
 tag @e[tag=REDMGNhld] remove REDMGNhld
-tag @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] add REDMGNhld
-tag @a[nbt={Inventory:[{id:"minecraft:knowledge_book",Slot:-106b}]}] add REDMGNhld
-tag @e[nbt={Item:{id:"minecraft:knowledge_book"}}] add REDMGNhld
+tag @a[nbt={SelectedItem:{id:"minecraft:debug_stick"}}] add REDMGNhld
+tag @a[nbt={Inventory:[{id:"minecraft:debug_stick",Slot:-106b}]}] add REDMGNhld
+tag @e[nbt={Item:{id:"minecraft:debug_stick"}}] add REDMGNhld
 
 # REPLACEITEMS #
-execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"}}] unless entity @s[nbt={SelectedItem:{tag:{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}}}] run replaceitem entity @s weapon.mainhand minecraft:knowledge_book{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}
-execute as @a[nbt={Inventory:[{id:"minecraft:knowledge_book",Slot:-106b}]}] unless entity @s[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}},Slot:-106b}]}] run replaceitem entity @s weapon.offhand minecraft:knowledge_book{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}
+execute as @a[nbt={SelectedItem:{id:"minecraft:debug_stick"}}] unless entity @s[nbt={SelectedItem:{tag:{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}}}] run replaceitem entity @s weapon.mainhand minecraft:debug_stick{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}
+execute as @a[nbt={Inventory:[{id:"minecraft:debug_stick",Slot:-106b}]}] unless entity @s[nbt={Inventory:[{tag:{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}},Slot:-106b}]}] run replaceitem entity @s weapon.offhand minecraft:debug_stick{display:{Name:"{\"text\":\"Magnet\",\"italic\":false}"}}
 
 # ATTRACTED ITEMS #
 execute as @e[tag=REDMGNatt] at @s unless entity @e[tag=REDMGNhld,distance=..12] run tag @s remove REDMGNatt

@@ -10,6 +10,8 @@ scoreboard players reset @s afk
 scoreboard players reset @s bot
 scoreboard players reset @s live
 scoreboard players reset @s rec
+scoreboard players reset @s randomkick
+scoreboard players reset @s stats
 scoreboard players reset @s timebar
 scoreboard players reset @s tomba
 

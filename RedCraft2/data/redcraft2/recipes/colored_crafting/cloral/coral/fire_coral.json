@@ -11,7 +11,7 @@
     },
     "key": {
          "#": {
-            "tag": "redcraft2:corals"
+            "tag": "redcraft2:not_fire_corals"
         },
          "$": {
             "item": "minecraft:rose_red"

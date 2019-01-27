@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:concretes"
+            "tag": "redcraft2:not_cyan_concretes"
         },
         "$": {
             "item": "minecraft:cyan_dye"

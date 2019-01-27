@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:stained_glass_panes"
+            "tag": "redcraft2:not_black_stained_glass_panes"
         },
         "$": {
             "item": "minecraft:ink_sac"

@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:concrete_powders"
+            "tag": "redcraft2:not_pink_concrete_powders"
         },
         "$": {
             "item": "minecraft:pink_dye"

@@ -1,3 +1,5 @@
 # redcraft2:src/armorstandplus/load
 
-# 0 lines
+scoreboard objectives add armorstandplus trigger
+
+# 1 lines

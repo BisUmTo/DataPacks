@@ -2,11 +2,10 @@
 
 # CONFIG #
 scoreboard objectives add config dummy [{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"}]
-execute unless score #VERSION config matches 200 run function redcraft2:_config
+execute unless score #VERSION config matches 201 run function redcraft2:_config
 
 # GAMERULE #
 gamerule doFireTick false
-gamerule sendCommandFeedback false
 
 # COUNTERS #
 scoreboard objectives add REDdts deathCount
@@ -24,6 +23,7 @@ scoreboard players set 100 const 100
 scoreboard players set 1000 const 1000
 scoreboard players set 1200 const 1200
 scoreboard players set 10000 const 10000
+scoreboard players set 32767 const 32767
 scoreboard players set 72000 const 72000
 scoreboard players set 1728000 const 1728000
 
@@ -33,4 +33,4 @@ function redcraft2:src/load
 # CREDITS #
 tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.13.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://youtube.com/BisUmTo\n\n","color":"gold","clickEvent":{"action":"open_url","value":"https://www.youtube.com/c/BisUmTo"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"Credita BisUmTo se stai usando questa creazione.\nNon ri-caricare questo datapack: allegaci il link del mio video!!\n\n","color":"red"}]
 
-# 19 + 72 lines
+# 19 + (73) lines

@@ -6,7 +6,7 @@
     },
     "ingredients": [
         {
-            "tag": "redcraft2:carpets"
+            "tag": "redcraft2:not_pink_carpets"
         },
         {
             "item": "minecraft:pink_dye"

@@ -11,7 +11,7 @@
     },
     "key": {
          "#": {
-            "tag": "redcraft2:coral_blocks"
+            "tag": "redcraft2:not_tube_coral_blocks"
         },
          "$": {
             "item": "minecraft:lapis_lazuli"

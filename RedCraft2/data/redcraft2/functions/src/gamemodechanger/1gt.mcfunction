@@ -20,9 +20,9 @@ scoreboard players enable @a[team=!REDguest] 2
 scoreboard players enable @a[team=!REDguest] 3
 
 # OUTPUT #
-tellraw @a[scores={0=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.survival"}]}]
-tellraw @a[scores={2=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.adventure"}]}]
-tellraw @a[scores={3=1..}] [{"translate":"gameMode.changed","with":[{"translate":"gameMode.spectator"}]}]
+execute if score SendCommandFeedback config matches 1 run title @a[scores={0=1..}] actionbar [{"translate":"gameMode.changed","with":[{"translate":"gameMode.survival"}]}]
+execute if score SendCommandFeedback config matches 1 run title @a[scores={2=1..}] actionbar [{"translate":"gameMode.changed","with":[{"translate":"gameMode.adventure"}]}]
+execute if score SendCommandFeedback config matches 1 run title @a[scores={3=1..}] actionbar [{"translate":"gameMode.changed","with":[{"translate":"gameMode.spectator"}]}]
 
 # RESET #
 scoreboard players set @a 0 0

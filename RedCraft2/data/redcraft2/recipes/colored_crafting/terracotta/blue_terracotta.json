@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:terracottas"
+            "tag": "redcraft2:not_blue_terracottas"
         },
         "$": {
             "item": "minecraft:lapis_lazuli"

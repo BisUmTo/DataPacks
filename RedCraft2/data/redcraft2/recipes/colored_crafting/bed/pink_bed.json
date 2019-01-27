@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:pink_bed",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "redcraft2:not_pink_beds"
+        },
+        {
+            "item": "minecraft:pink_dye"
+        }
+    ]
+}

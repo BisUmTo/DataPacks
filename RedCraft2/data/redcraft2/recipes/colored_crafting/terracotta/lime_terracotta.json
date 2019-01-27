@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "tag": "redcraft2:terracottas"
+            "tag": "redcraft2:not_lime_terracottas"
         },
         "$": {
             "item": "minecraft:lime_dye"
