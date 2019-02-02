@@ -1,6 +1,7 @@
 # redcraft2:src/guests/load
 
 scoreboard objectives add REDGSTtme minecraft.custom:minecraft.play_one_minute
+scoreboard objectives add REDGSTlft minecraft.custom:minecraft.leave_game
 scoreboard objectives add REDGSTscc dummy
 scoreboard objectives add guest trigger
 scoreboard objectives add rank dummy

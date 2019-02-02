@@ -16,4 +16,6 @@ scoreboard players reset @s stats
 scoreboard players reset @s timebar
 scoreboard players reset @s tomba
 
-# 12 lines
+tag @s add REDguesting
+
+# 14 lines
