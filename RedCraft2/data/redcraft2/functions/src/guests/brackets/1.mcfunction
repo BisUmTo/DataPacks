@@ -7,6 +7,7 @@ scoreboard players reset @s 1
 scoreboard players reset @s 2
 scoreboard players reset @s 3
 scoreboard players reset @s afk
+scoreboard players reset @s armorstandplus
 scoreboard players reset @s bot
 scoreboard players reset @s live
 scoreboard players reset @s rec

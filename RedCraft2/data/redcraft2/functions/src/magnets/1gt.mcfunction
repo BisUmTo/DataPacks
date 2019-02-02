@@ -29,10 +29,10 @@ execute as @e[tag=REDMGNatt] at @s store result entity @s Motion[0] double -0.00
 execute as @e[tag=REDMGNhld] at @s store result score @s REDMGNpos run data get entity @s Pos[1] 1000
 scoreboard players add @e[tag=REDMGNhld] REDMGNpos 100
 execute as @e[tag=REDMGNatt] at @s store result score @s REDMGNpos run data get entity @s Pos[1] 1000
-execute as @e[tag=REDMGNatt] store result entity @s Motion[1] double -0.00009 run scoreboard players operation @s REDMGNpos -= @e[tag=REDMGNhld,limit=1,sort=nearest] REDMGNpos
+execute as @e[tag=REDMGNatt] at @s store result entity @s Motion[1] double -0.00009 run scoreboard players operation @s REDMGNpos -= @e[tag=REDMGNhld,limit=1,sort=nearest] REDMGNpos
 
 execute as @e[tag=REDMGNhld] at @s store result score @s REDMGNpos run data get entity @s Pos[2] 1000
 execute as @e[tag=REDMGNatt] at @s store result score @s REDMGNpos run data get entity @s Pos[2] 1000
-execute as @e[tag=REDMGNatt] store result entity @s Motion[2] double -0.00005 run scoreboard players operation @s REDMGNpos -= @e[tag=REDMGNhld,limit=1,sort=nearest] REDMGNpos
+execute as @e[tag=REDMGNatt] at @s store result entity @s Motion[2] double -0.00005 run scoreboard players operation @s REDMGNpos -= @e[tag=REDMGNhld,limit=1,sort=nearest] REDMGNpos
 
 # 22 + 2 lines

@@ -9,4 +9,6 @@ execute if entity @e[scores={guest=1..}] run function redcraft2:src/guests/brack
 execute as @e[scores={guest=1..}] if score @s guest = Result guest run team leave @s
 scoreboard players set @a guest 0
 
-# 6 + (5 + 27) lines
+team leave @a[team=REDguest,scores={rank=1..}]
+
+# 7 + (5 + 27) lines
