@@ -1,7 +1,7 @@
 # redcraft2:_config
 
 scoreboard players reset * config
-scoreboard players set #VERSION config 201
+scoreboard players set #VERSION config 202
 
 gamerule sendCommandFeedback false
 scoreboard players set SendCommandFeedback config 1
@@ -16,12 +16,14 @@ scoreboard players set DeathCoords config 1
 scoreboard players set GamemodeChanger config 1
 scoreboard players set Graves config 1
     scoreboard players set GraveTrigger config 1
-scoreboard players set Guests config 0
+scoreboard players set Guests config 1
 scoreboard players set HorseStats config 1
 scoreboard players set Ladders config 1
     scoreboard players set FloatingLadders config 0
     scoreboard players set RopeLadders config 1
 scoreboard players set Magnet config 0
+scoreboard players set Minigames config 1
+scoreboard players set MniuzosPlants config 1
 scoreboard players set MultipleDragonEggs config 1
 scoreboard players set NametagActions config 1
     scoreboard players set AngryVindicators config 1

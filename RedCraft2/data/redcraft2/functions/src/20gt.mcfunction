@@ -11,6 +11,8 @@ execute if score Guests config matches 1 run function redcraft2:src/guests/20gt
 execute if score HorseStats config matches 1 run function redcraft2:src/horsestats/20gt
 #0# execute if score Ladders config matches 1 run function redcraft2:src/ladders/20gt
 #0# execute if score Magnet config matches 1 run function redcraft2:src/magnets/20gt
+execute if score Minigames config matches 1 run function redcraft2:src/minigames/20gt
+execute if score MniuzosPlants config matches 1 run function redcraft2:src/mniuzosplants/20gt
 execute if score MultipleDragonEggs config matches 1 run function redcraft2:src/multipledragoneggs/20gt
 execute if score NametagActions config matches 1 run function redcraft2:src/nametagactions/20gt
 execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/20gt
@@ -25,4 +27,4 @@ execute if score TimePlayed config matches 1 run function redcraft2:src/timeplay
 #0# execute if score VillagerInventory config matches 1 run function redcraft2:src/villagerinventory/20gt
 #0# execute if score XPMerging config matches 1 run function redcraft2:src/xpmerging/20gt
 
-# 17 + (11 + 13 + 17 + 4 + 8 + 38 + 11 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines
+# 17 + (11 + 13 + 17 + 4 + 8 + 38 + 11 + 2 + 7 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines

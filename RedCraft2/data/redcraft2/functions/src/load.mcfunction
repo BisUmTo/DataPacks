@@ -11,6 +11,8 @@ execute if score Guests config matches 1 run function redcraft2:src/guests/load
 execute if score HorseStats config matches 1 run function redcraft2:src/horsestats/load
 #0# execute if score Ladders config matches 1 run function redcraft2:src/ladders/load
 execute if score Magnet config matches 1 run function redcraft2:src/magnets/load
+#0# execute if score Minigames config matches 1 run function redcraft2:src/minigames/load
+#0# execute if score MniuzosPlants config matches 1 run function redcraft2:src/mniuzosplants/load
 #0# execute if score MultipleDragonEggs config matches 1 run function redcraft2:src/multiplegragoneggs/load
 #0# execute if score NametagActions config matches 1 run function redcraft2:src/nametagactions/load
 #0# execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/load
