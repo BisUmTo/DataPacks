@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:green_bed",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_green_beds"
         },
         {
-            "item": "minecraft:cactus_green"
+            "item": "minecraft:green_dye"
         }
     ]
 }

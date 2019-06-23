@@ -1,15 +1,21 @@
 {
-    "type": "crafting_shapeless",
-    "result": {
-        "item": "minecraft:orange_carpet",
-        "count": 1
-    },
-    "ingredients": [
-        {
+    "type": "crafting_shaped",
+    "group": "carpet",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
             "tag": "redcraft2:not_orange_carpets"
         },
-        {
+        "$": {
             "item": "minecraft:orange_dye"
         }
-    ]
+    },
+    "result": {
+        "item": "minecraft:orange_carpet",
+        "count": 8
+    }
 }

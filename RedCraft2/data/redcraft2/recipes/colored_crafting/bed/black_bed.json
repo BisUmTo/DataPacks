@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:black_bed",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_black_beds"
         },
         {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:black_dye"
         }
     ]
 }

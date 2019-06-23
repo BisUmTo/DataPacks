@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "coral",
     "pattern": [
         "###",
         "#$#",
@@ -14,7 +15,7 @@
             "tag": "redcraft2:not_fire_corals"
         },
          "$": {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         }
     }
 }

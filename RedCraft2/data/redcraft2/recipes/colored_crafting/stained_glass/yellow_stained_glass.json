@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "stained_glass",
     "pattern": [
         "###",
         "#$#",
@@ -10,7 +11,7 @@
             "tag": "redcraft2:not_yellow_stained_glasses"
         },
         "$": {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
         }
     },
     "result": {

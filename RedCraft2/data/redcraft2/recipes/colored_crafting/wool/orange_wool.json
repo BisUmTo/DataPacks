@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "wool",
     "result": {
         "item": "minecraft:orange_wool",
         "count": 1

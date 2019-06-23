@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "stained_glass_pane",
     "pattern": [
         "###",
         "#$#",
@@ -10,7 +11,7 @@
             "tag": "redcraft2:not_white_stained_glass_panes"
         },
         "$": {
-            "item": "minecraft:bone_meal"
+            "item": "minecraft:white_dye"
         }
     },
     "result": {

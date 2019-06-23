@@ -2,10 +2,11 @@
 
 # CONFIG #
 scoreboard objectives add config dummy [{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"}]
-execute unless score #VERSION config matches 201 run function redcraft2:_config
+execute unless score #VERSION config matches 210 run function redcraft2:_config
 
 # GAMERULE #
 gamerule doFireTick false
+gamerule maxCommandChainLength 1000000
 
 # COUNTERS #
 scoreboard objectives add REDdts deathCount
@@ -31,6 +32,7 @@ scoreboard players set 1728000 const 1728000
 function redcraft2:src/load
 
 # CREDITS #
-tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.13.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://youtube.com/BisUmTo\n\n","color":"gold","clickEvent":{"action":"open_url","value":"https://www.youtube.com/c/BisUmTo"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"Credita BisUmTo se stai usando questa creazione.\nNon ri-caricare questo datapack: allegaci il link del mio video!!\n\n","color":"red"}]
+tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.14.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://bisumto.it/redcraft2","color":"gold","clickEvent":{"action":"open_url","value":"https://bisumto.it/redcraft2"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"\n\n Credita BisUmTo se stai usando questa creazione.\n Non ri-caricare questo datapack: allegaci il link del mio sito!\n","color":"red"}]
+tellraw @a ["",{"text":"Alcune funzionalità sono state create da Tryshtar e SethBling.\n","color":"gray"}]
 
 # 19 + (73) lines

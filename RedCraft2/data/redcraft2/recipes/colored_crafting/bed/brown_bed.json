@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:brown_bed",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_brown_beds"
         },
         {
-            "item": "minecraft:cocoa_beans"
+            "item": "minecraft:brown_dye"
         }
     ]
 }

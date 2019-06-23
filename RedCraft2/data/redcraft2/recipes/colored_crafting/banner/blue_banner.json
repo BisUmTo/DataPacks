@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "banner",
      "pattern": [
          "###",
          "#$#",
@@ -14,7 +15,7 @@
             "tag": "redcraft2:not_blue_banners"
         },
          "$": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         }
     }
 }

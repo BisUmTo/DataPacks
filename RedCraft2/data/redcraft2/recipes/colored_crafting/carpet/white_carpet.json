@@ -1,15 +1,21 @@
 {
-    "type": "crafting_shapeless",
-    "result": {
-        "item": "minecraft:white_carpet",
-        "count": 1
-    },
-    "ingredients": [
-        {
+    "type": "crafting_shaped",
+    "group": "carpet",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
             "tag": "redcraft2:not_white_carpets"
         },
-        {
-            "item": "minecraft:bone_meal"
+        "$": {
+            "item": "minecraft:white_dye"
         }
-    ]
+    },
+    "result": {
+        "item": "minecraft:white_carpet",
+        "count": 8
+    }
 }

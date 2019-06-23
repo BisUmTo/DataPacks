@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "wool",
     "result": {
         "item": "minecraft:blue_wool",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_blue_wools"
         },
         {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         }
     ]
 }

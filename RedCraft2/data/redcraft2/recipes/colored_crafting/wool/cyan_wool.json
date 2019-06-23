@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "wool",
     "result": {
         "item": "minecraft:cyan_wool",
         "count": 1

@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "wool",
     "result": {
         "item": "minecraft:black_wool",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_black_wools"
         },
         {
-            "item": "minecraft:ink_sac"
+            "item": "minecraft:black_dye"
         }
     ]
 }

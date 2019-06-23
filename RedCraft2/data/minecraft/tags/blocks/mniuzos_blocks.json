@@ -7,12 +7,14 @@
         "minecraft:andesite",
         "#minecraft:stone_bricks",
         "minecraft:gravel",
-        "minecraft:diorite","minecraft:cobblestone",
+        "minecraft:diorite",
+        "minecraft:cobblestone",
         "minecraft:mossy_cobblestone",
         "minecraft:terracotta",
         "#minecraft:dead_coral_blocks",
         "#minecraft:concrete_powders",
         "#minecraft:leaves",
-        "#minecraft:sand"
+        "#minecraft:sand",
+        "minecraft:grass_path"
     ]
 }

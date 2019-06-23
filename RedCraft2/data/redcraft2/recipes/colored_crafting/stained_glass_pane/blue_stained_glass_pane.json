@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "stained_glass_pane",
     "pattern": [
         "###",
         "#$#",
@@ -10,7 +11,7 @@
             "tag": "redcraft2:not_blue_stained_glass_panes"
         },
         "$": {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         }
     },
     "result": {

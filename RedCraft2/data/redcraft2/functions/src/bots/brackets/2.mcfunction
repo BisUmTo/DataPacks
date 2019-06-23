@@ -2,7 +2,7 @@
 
 tag @s[gamemode=spectator] add REDBOTgms
 gamemode spectator @s
-gamemode adventure @s[tag=REDBOTgms]
+gamemode survival @s[tag=REDBOTgms]
 tag @s remove REDBOTgms
 
 # 4 lines

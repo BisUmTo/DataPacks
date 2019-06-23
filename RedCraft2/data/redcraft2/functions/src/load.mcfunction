@@ -4,7 +4,9 @@ execute if score ArmorstandPlus config matches 1 run function redcraft2:src/armo
 execute if score Beds config matches 1 run function redcraft2:src/beds/load
 execute if score Bots config matches 1 run function redcraft2:src/bots/load
 #0# execute if score ColoredShulkers config matches 1 run function redcraft2:src/coloredshulkers/load
+execute if score CustomHeads config matches 1 run function redcraft2:src/customheads/load
 execute if score DeathCoords config matches 1 run function redcraft2:src/deathcoords/load
+execute if score FloatingText config matches 1 run function sethbling.permatext:load
 execute if score GamemodeChanger config matches 1 run function redcraft2:src/gamemodechanger/load
 execute if score Graves config matches 1 run function redcraft2:src/graves/load
 execute if score Guests config matches 1 run function redcraft2:src/guests/load
@@ -18,6 +20,7 @@ execute if score Magnet config matches 1 run function redcraft2:src/magnets/load
 #0# execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/load
 execute if score RandomKick config matches 1 run function redcraft2:src/randomkick/load
 #0# execute if score SaplingPlanting config matches 1 run function redcraft2:src/saplingplanting/load
+execute if score ShulkerboxPreview config matches 1 run function tryashtar.shulker_preview:.meta/load
 execute if score SitAnywhere config matches 1 run function redcraft2:src/sitanywhere/load
 execute if score StackableShulkerboxes config matches 1 run function redcraft2:src/stackableshulkerboxes/load
 execute if score Stats config matches 1 run function redcraft2:src/stats/load

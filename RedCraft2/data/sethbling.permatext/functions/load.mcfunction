@@ -1,0 +1,15 @@
+scoreboard objectives add no_text dummy
+scoreboard objectives add _pos1_1 dummy
+scoreboard objectives add _pos1_0 dummy
+scoreboard objectives add _pos1_2 dummy
+scoreboard objectives add _age dummy
+scoreboard objectives add _pos_2 dummy
+scoreboard objectives add _pos_1 dummy
+scoreboard objectives add _pos_0 dummy
+scoreboard objectives add _aim_2 dummy
+scoreboard objectives add _aim_0 dummy
+scoreboard objectives add _aim_1 dummy
+scoreboard objectives add get_scratch2 dummy
+scoreboard objectives add get_scratch1 dummy
+scoreboard objectives add get_scratch0 dummy
+scoreboard objectives add mai_scratch0 dummy

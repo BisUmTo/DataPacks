@@ -4,7 +4,9 @@ execute if score ArmorstandPlus config matches 1 run function redcraft2:src/armo
 #0# execute if score Beds config matches 1 run function redcraft2:src/beds/20gt
 execute if score Bots config matches 1 run function redcraft2:src/bots/20gt
 execute if score ColoredShulkers config matches 1 run function redcraft2:src/coloredshulkers/20gt
+execute if score CustomHeads config matches 1 run function redcraft2:src/customheads/20gt
 execute if score DeathCoords config matches 1 run function redcraft2:src/deathcoords/20gt
+#0# execute if score FloatingText config matches 1 run function sethbling.permatext:second
 #0# execute if score GamemodeChanger config matches 1 run function redcraft2:src/gamemodechanger/20gt
 execute if score Graves config matches 1 run function redcraft2:src/graves/20gt
 execute if score Guests config matches 1 run function redcraft2:src/guests/20gt
@@ -18,6 +20,7 @@ execute if score NametagActions config matches 1 run function redcraft2:src/name
 execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/20gt
 execute if score RandomKick config matches 1 run function redcraft2:src/randomkick/20gt
 execute if score SaplingPlanting config matches 1 run function redcraft2:src/saplingreplanting/20gt
+#0# execute if score ShulkerboxPreview config matches 1 run function tryashtar.shulker_preview:.meta/second
 execute if score SitAnywhere config matches 1 run function redcraft2:src/sitanywhere/20gt
 #0# execute if score StackableShulkerboxes config matches 1 run function redcraft2:src/stackableshulkerboxes/20gt
 execute if score Stats config matches 1 run function redcraft2:src/stats/20gt
@@ -27,4 +30,4 @@ execute if score TimePlayed config matches 1 run function redcraft2:src/timeplay
 #0# execute if score VillagerInventory config matches 1 run function redcraft2:src/villagerinventory/20gt
 #0# execute if score XPMerging config matches 1 run function redcraft2:src/xpmerging/20gt
 
-# 17 + (11 + 13 + 17 + 4 + 8 + 38 + 11 + 2 + 7 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines
+# 17 + (11 + 13 + 17 + 45349 + 4 + 8 + 38 + 11 + 2 + 7 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines

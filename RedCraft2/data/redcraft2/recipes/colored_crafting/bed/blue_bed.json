@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:blue_bed",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_blue_beds"
         },
         {
-            "item": "minecraft:lapis_lazuli"
+            "item": "minecraft:blue_dye"
         }
     ]
 }

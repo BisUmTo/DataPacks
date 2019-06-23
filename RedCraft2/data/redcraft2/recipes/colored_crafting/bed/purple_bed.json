@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:purple_bed",
         "count": 1

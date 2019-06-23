@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "group": "coral",
     "pattern": [
         "###",
         "#$#",
@@ -14,7 +15,7 @@
             "tag": "redcraft2:not_horn_corals"
         },
          "$": {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
         }
     }
 }

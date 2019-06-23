@@ -1,7 +1,7 @@
 # redcraft2:_config
 
 scoreboard players reset * config
-scoreboard players set #VERSION config 202
+scoreboard players set #VERSION config 210
 
 gamerule sendCommandFeedback false
 scoreboard players set SendCommandFeedback config 1
@@ -12,11 +12,13 @@ scoreboard players set Beds config 1
     scoreboard players set InstantBed config 1
 scoreboard players set Bots config 1
 scoreboard players set ColoredShulkers config 1
+scoreboard players set CustomHeads config 1
 scoreboard players set DeathCoords config 1
+scoreboard players set FloatingText config 1
 scoreboard players set GamemodeChanger config 1
 scoreboard players set Graves config 1
     scoreboard players set GraveTrigger config 1
-scoreboard players set Guests config 1
+scoreboard players set Guests config 0
 scoreboard players set HorseStats config 1
 scoreboard players set Ladders config 1
     scoreboard players set FloatingLadders config 0
@@ -35,6 +37,7 @@ scoreboard players set PerformanceFixes config 1
     scoreboard players set FishFreezing config 1
 scoreboard players set RandomKick config 1
 scoreboard players set SaplingPlanting config 0
+scoreboard players set ShulkerboxPreview config 1
 scoreboard players set SitAnywhere config 1
 scoreboard players set StackableShulkerboxes config 1
 scoreboard players set Stats config 1

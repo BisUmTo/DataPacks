@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "bed",
     "result": {
         "item": "minecraft:red_bed",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_red_beds"
         },
         {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:red_dye"
         }
     ]
 }

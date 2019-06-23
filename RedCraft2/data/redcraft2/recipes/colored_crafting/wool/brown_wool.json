@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "group": "wool",
     "result": {
         "item": "minecraft:brown_wool",
         "count": 1
@@ -9,7 +10,7 @@
             "tag": "redcraft2:not_brown_wools"
         },
         {
-            "item": "minecraft:cocoa_beans"
+            "item": "minecraft:brown_dye"
         }
     ]
 }

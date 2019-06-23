@@ -1,15 +1,21 @@
 {
-    "type": "crafting_shapeless",
-    "result": {
-        "item": "minecraft:pink_carpet",
-        "count": 1
-    },
-    "ingredients": [
-        {
+    "type": "crafting_shaped",
+    "group": "carpet",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
             "tag": "redcraft2:not_pink_carpets"
         },
-        {
+        "$": {
             "item": "minecraft:pink_dye"
         }
-    ]
+    },
+    "result": {
+        "item": "minecraft:pink_carpet",
+        "count": 8
+    }
 }
