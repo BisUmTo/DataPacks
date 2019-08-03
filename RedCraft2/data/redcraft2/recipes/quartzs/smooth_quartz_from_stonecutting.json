@@ -2,7 +2,13 @@
   "type": "minecraft:stonecutting",
   "ingredient": [
     {
-      "tag": "redcraft2:quartz_blocks"
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
     },
     {
       "item": "minecraft:quartz_stairs"

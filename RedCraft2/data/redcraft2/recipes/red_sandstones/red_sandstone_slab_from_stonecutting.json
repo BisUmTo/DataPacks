@@ -9,6 +9,9 @@
     },
     {
       "item": "minecraft:smooth_red_sandstone_stairs"
+    },
+    {
+      "item": "minecraft:red_sandstone_wall"
     }
   ],
   "result": "minecraft:red_sandstone_slab",

@@ -1,7 +1,7 @@
 # redcraft2:src/armorstandplus/brackets/37
 
 execute as @e[type=armor_stand,limit=1,sort=nearest] store result score #TMP armorstandplus run data get entity @s Pose.Body[0]
-scoreboard players remove #TMP armorstandplus 10
+scoreboard players operation #TMP armorstandplus -= @e[type=armor_stand,limit=1,sort=nearest] armorstandplus
 execute if score #TMP armorstandplus matches ..0 run scoreboard players set #TMP 350
 execute as @e[type=armor_stand,limit=1,sort=nearest] store result entity @s Pose.Body[0] float 1 run scoreboard players get #TMP armorstandplus
 

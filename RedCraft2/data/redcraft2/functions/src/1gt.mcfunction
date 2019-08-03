@@ -14,10 +14,12 @@ execute if score Guests config matches 1 run function redcraft2:src/guests/1gt
 execute if score Ladders config matches 1 run function redcraft2:src/ladders/1gt
 execute if score Magnet config matches 1 run function redcraft2:src/magnets/1gt
 #0# execute if score Minigames config matches 1 run function redcraft2:src/minigames/1gt
-#0# execute if score MniuzosPlants config matches 1 run function redcraft2:src/mniuzosplants/1gt
+#0# execute if score MoreHeads config matches 1 run function redcraft2:src/moreheads/1gt
 #0# execute if score MultipleDragonEggs config matches 1 run function redcraft2:src/multiplegragoneggs/1gt
 #0# execute if score NametagActions config matches 1 run function redcraft2:src/nametagactions/1gt
+#0# execute if score OldBow config matches 1 run function redcraft2:src/oldbow/1gt
 #0# execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/1gt
+#0# execute if score Placeable config matches 1 run function redcraft2:src/placeable/1gt
 #0# execute if score RandomKick config matches 1 run function redcraft2:src/randomkick/1gt
 #0# execute if score SaplingPlanting config matches 1 run function redcraft2:src/saplingplanting/1gt
 execute if score ShulkerboxPreview config matches 1 run function tryashtar.shulker_preview:.meta/tick

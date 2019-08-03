@@ -3,7 +3,8 @@
   "ingredient": [
     {
       "item": "minecraft:sandstone_slab"
-    },{
+    },
+    {
       "item": "minecraft:cut_sandstone_slab"
     }
   ],

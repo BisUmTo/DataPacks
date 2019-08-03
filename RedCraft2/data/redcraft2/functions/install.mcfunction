@@ -2,7 +2,7 @@
 
 # CONFIG #
 scoreboard objectives add config dummy [{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"}]
-execute unless score #VERSION config matches 210 run function redcraft2:_config
+execute unless score #CONFIGVERSION config matches 220 run function redcraft2:_config
 
 # GAMERULE #
 gamerule doFireTick false
@@ -33,6 +33,18 @@ function redcraft2:src/load
 
 # CREDITS #
 tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.14.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://bisumto.it/redcraft2","color":"gold","clickEvent":{"action":"open_url","value":"https://bisumto.it/redcraft2"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"\n\n Credita BisUmTo se stai usando questa creazione.\n Non ri-caricare questo datapack: allegaci il link del mio sito!\n","color":"red"}]
-tellraw @a ["",{"text":"Alcune funzionalità sono state create da Tryshtar e SethBling.\n","color":"gray"}]
 
-# 19 + (73) lines
+# VERSION #
+execute store result score #GAMEVERSION config run data get entity @a[limit=1] DataVersion
+execute if score #GAMEVERSION config matches ..1951 run tellraw @a {"text":" Molte funzionalità non sono compatibili con versioni precedenti alla 1.14!\n","color":"red"}
+execute if score #GAMEVERSION config matches 1952..1975 run tellraw @a {"text":" Non è assicurata la compatibilità con le versioni precedenti alla 1.14.4!\n","color":"red"}
+execute if score #GAMEVERSION config matches 1976 run tellraw @a {"text":" Alcune funzionalità sono state importate dai datapack create da Tryshtar, XisumaVoid e SethBling.\n","color":"gray"}
+execute if score #GAMEVERSION config matches 1977.. run tellraw @a {"text":" Non è assicurata la compatibilità con le versioni sucessive alla 1.14.4!\n","color":"red"}
+
+scoreboard players add #GAMEMODDED config 0
+execute if score #GAMEMODDED config matches 0 store success score #GAMEMODDED config run data get entity @a[limit=1] "Spigot.ticksLived"
+execute if score #GAMEMODDED config matches 0 store success score #GAMEMODDED config run data get entity @a[limit=1] "Bukkit.updateLevel"
+execute if score #GAMEMODDED config matches 0 store success score #GAMEMODDED config run data get entity @a[limit=1] "Paper.SpawnReason"
+execute if score #GAMEMODDED config matches 1 run tellraw @a {"text":"Non è assicurata la compatibilità nei server non vanilla!","color":"red"}
+
+# 19 + (74) lines

@@ -11,10 +11,10 @@
         "count": 8
     },
     "key": {
-         "#": {
+        "#": {
             "tag": "redcraft2:not_bubble_corals"
         },
-         "$": {
+        "$": {
             "item": "minecraft:magenta_dye"
         }
     }

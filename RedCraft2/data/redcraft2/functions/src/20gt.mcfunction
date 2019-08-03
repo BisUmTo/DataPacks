@@ -14,10 +14,12 @@ execute if score HorseStats config matches 1 run function redcraft2:src/horsesta
 #0# execute if score Ladders config matches 1 run function redcraft2:src/ladders/20gt
 #0# execute if score Magnet config matches 1 run function redcraft2:src/magnets/20gt
 execute if score Minigames config matches 1 run function redcraft2:src/minigames/20gt
-execute if score MniuzosPlants config matches 1 run function redcraft2:src/mniuzosplants/20gt
+execute if score MoreHeads config matches 1 run function redcraft2:src/moreheads/20gt
 execute if score MultipleDragonEggs config matches 1 run function redcraft2:src/multipledragoneggs/20gt
 execute if score NametagActions config matches 1 run function redcraft2:src/nametagactions/20gt
+execute if score OldBow config matches 1 run function redcraft2:src/oldbow/20gt
 execute if score PerformanceFixes config matches 1 run function redcraft2:src/performancefixes/20gt
+execute if score Placeable config matches 1 run function redcraft2:src/placeable/20gt
 execute if score RandomKick config matches 1 run function redcraft2:src/randomkick/20gt
 execute if score SaplingPlanting config matches 1 run function redcraft2:src/saplingreplanting/20gt
 #0# execute if score ShulkerboxPreview config matches 1 run function tryashtar.shulker_preview:.meta/second
@@ -30,4 +32,4 @@ execute if score TimePlayed config matches 1 run function redcraft2:src/timeplay
 #0# execute if score VillagerInventory config matches 1 run function redcraft2:src/villagerinventory/20gt
 #0# execute if score XPMerging config matches 1 run function redcraft2:src/xpmerging/20gt
 
-# 17 + (11 + 13 + 17 + 45349 + 4 + 8 + 38 + 11 + 2 + 7 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines
+# 21 + (11 + 13 + (/) + 45349 + 4 + 8 + 38 + 11 + 2 + 74 + 32 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines

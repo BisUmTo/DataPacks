@@ -11,10 +11,10 @@
         "count": 8
     },
     "key": {
-         "#": {
+        "#": {
             "tag": "redcraft2:not_brain_corals"
         },
-         "$": {
+        "$": {
             "item": "minecraft:pink_dye"
         }
     }

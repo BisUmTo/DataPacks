@@ -11,10 +11,10 @@
         "count": 8
     },
     "key": {
-         "#": {
+        "#": {
             "tag": "redcraft2:not_tube_corals"
         },
-         "$": {
+        "$": {
             "item": "minecraft:blue_dye"
         }
     }

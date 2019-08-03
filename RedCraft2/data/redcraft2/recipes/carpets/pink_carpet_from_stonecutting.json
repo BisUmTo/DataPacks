@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:pink_wool"
+    }
+  ],
+  "result": "minecraft:pink_carpet",
+  "count": 2
+}

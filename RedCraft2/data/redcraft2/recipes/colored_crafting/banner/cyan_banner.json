@@ -1,20 +1,20 @@
 {
     "type": "crafting_shaped",
     "group": "banner",
-     "pattern": [
-         "###",
-         "#$#",
-         "###"
-     ],
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
     "result": {
         "item": "minecraft:cyan_banner",
         "count": 8
     },
     "key": {
-         "#": {
+        "#": {
             "tag": "redcraft2:not_cyan_banners"
         },
-         "$": {
+        "$": {
             "item": "minecraft:cyan_dye"
         }
     }

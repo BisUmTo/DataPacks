@@ -15,6 +15,9 @@
     },
     {
       "item": "minecraft:smooth_sandstone_stairs"
+    },
+    {
+      "item": "minecraft:sandstone_wall"
     }
   ],
   "result": "minecraft:chiseled_sandstone",

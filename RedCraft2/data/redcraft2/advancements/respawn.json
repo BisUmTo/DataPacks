@@ -1,15 +1,15 @@
 {
-    "criteria": {
-        "run": {
-          "trigger": "minecraft:summoned_entity",
-          "conditions": {
-            "entity": {
-              "type": "minecraft:ender_dragon"
-            }
-          }
+  "criteria": {
+    "run": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
         }
-      },
-	"rewards": {
-		"function": "redcraft2:src/multipledragoneggs/commands/respawn_trigger"
-	}
+      }
+    }
+  },
+  "rewards": {
+    "function": "redcraft2:src/multipledragoneggs/commands/respawn_trigger"
+  }
 }

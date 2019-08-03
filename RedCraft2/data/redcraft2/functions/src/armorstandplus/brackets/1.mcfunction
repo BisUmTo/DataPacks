@@ -1,5 +1,6 @@
 # redcraft2:src/armorstandplus/brackets/1
 
+execute as @e[type=armor_stand,limit=1,sort=nearest] unless score @s armorstandplus matches 0.. run scoreboard players set @e[type=armor_stand,limit=1,sort=nearest] armorstandplus 10
 execute as @e[type=armor_stand,tag=!REDASPini,limit=1,sort=nearest,distance=..5] run data merge entity @s {Pose:{LeftArm:[-11f,0f,-11f],RightArm:[-11f,0f,11f],LeftLeg:[0f,0f,0f],RightLeg:[0f,0f,0f]},Tags:["REDASPini"]}
 
 # HEAD
@@ -84,3 +85,4 @@ execute if score @s armorstandplus matches 63360 run function redcraft2:src/armo
 execute if score @s armorstandplus matches 71000..71359 run function redcraft2:src/armorstandplus/brackets/56
 execute if score @s armorstandplus matches 71360 run function redcraft2:src/armorstandplus/brackets/57
 execute if score @s armorstandplus matches 72360 run function redcraft2:src/armorstandplus/brackets/58
+execute if score @s armorstandplus matches 73000..73359 run function redcraft2:src/armorstandplus/brackets/59

@@ -23,15 +23,16 @@
     <li>Impugnando un orologio viene scritto nella actionbar il tempo di gioco.</li>
     <li>Equipaggiando ad un cavallo una armatura d'oro verr&agrave; inviata in chat al giocatore pi&ugrave; vicino una tabella con le statistiche dal cavallo.</li>
     <li>
-        Strumenti per armor stand:
+        Strumenti per <i>supporto per armatura/armor stand</i>:
         <ul>
-            <li>Gettando addosso ad un armor stand due <i>bastoni/sticks</i>, gli compariranno le braccia.</li>
-            <li>Gettando addosso ad un armor stand una <i>lastra di pietra/stone slab</i>, gli scomparir&agrave; la base.</li>
-            <li>Gettando addosso ad un armor stand una <i>piuma/feather</i>, esso non soffrir&agrave; pi&ugrave; della gravit&agrave;.</li>
-            <li>Gettando addosso ad un armor stand che non soffre di gravit&agrave; un <i>vaso/pot</i>, esso inizier&agrave; a roteare.</li>
-            <li>Gettando addosso ad un armor stand una <i>membrana di phantom/phantom membrane</i>, esso diventer&agrave; invisibile.</li>
-            <li>Gettando addosso ad un armor stand invisibile un <i>occhio di ender/ender eye</i>, esso ritorner&agrave; visibile.</li>
-            <li>Aggiunto comando <i>/trigger armorstandplus</i> che permette di modificare la posa del supporto per armatura pi&ugrave; vicino. <b>Necessaria ResourcePack</b></li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> due <i>bastoni/sticks</i>, gli compariranno le braccia.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> una <i>lastra di pietra/stone slab</i>, gli scomparir&agrave; la base.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> una <i>piuma/feather</i>, esso non soffrir&agrave; pi&ugrave; della gravit&agrave;.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> che non soffre di gravit&agrave; un <i>vaso/pot</i>, esso inizier&agrave; a roteare.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> una <i>membrana di phantom/phantom membrane</i>, esso diventer&agrave; invisibile.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> invisibile un <i>occhio di ender/ender eye</i>, esso ritorner&agrave; visibile.</li>
+            <li>Gettando addosso ad un <i>supporto per armatura/armor stand</i> un <i>fuoco da campo/campfire</i>, esso inizier&agrave; ad emettere particelle di fumo.</li>
+            <li>Aggiunto comando <i>/trigger armorstandplus</i> che permette di modificare la posa del supporto per armatura pi&ugrave; vicino. <small>[Optional texture by @Edo022]</small></li>
         </ul>
     </li>
     <li>
@@ -48,7 +49,8 @@
     <li>
         Crafting aggiunti:
         <ul>
-            <li>Aggiunta la compatibilit&agrave; nel <i>tagliapietre/stonecutter</i> per le varianti di blocchi <i>levigati/smooth</i>.</li>
+            <li>Aggiunta la compatibilit&agrave; nel <i>tagliapietre/stonecutter</i> per le varianti di blocchi legnosi e <i>levigati/smooth</i>.</li>
+            <li>Aggiunta la retrocraftabilit&agrave; per le <i>lastre/slab</i> posizionandone 2 nel <i>banco da lavoro/crafting table</i> una sopra l'altra.</li>
             <li>Aggiunto il crafting per il <i>guscio di shulker/shulker shell</i> con un <i>elmeo di tartaruga/turtle helmet</i> e un <i>frutto corale scoppiato/popped chorus fruit</i>.</li>
             <li>Aggiunto il crafting per la <i>ragnatela/cobweb</i> con 9 <i>stringhe/strings</i>.</li>
             <li>Aggiunto il crafting per la <i>verruca del nether/nether wart</i>, 9 con 1 <i>blocco di verruche del nether/nether wart block</i>.</li>
@@ -63,6 +65,7 @@
             <li>Aggiunta compatibilit&agrave; di crafting per le varianti colorate di <i>polvere di calcestruzzo/concrete powder</i>, <i>calcestruzzo/concrete</i>, <i>vetro colorato/stained glass</i>, <i>pannello di vetro colorato/stained glass pane</i>, <i>terracotta</i>, <i>terracotta smaltata/glazed terracotta</i>, <i>lana/wool</i>, <i>tappeto/carpet</i>, <i>stendardo/banner</i>, <i>letto/bed</i>, <i>corallo/coral</i>, <i>blocco di corallo/coral block</i> e <i>gorgonia/coral fan</i>.</li>
             <li>Modificato il crafting per i <i>mattoni/bricks</i>, ora se ne otterranno 4 anzich&egrave; 1.</li>
             <li>Essiccando un <i>arboscello/sapling</i> nella fornace, si otter&agrave; un <i>arboscello secco/dead bush</i>.</li>
+            <li>Aggiunti crafting rapidi per <i>tramogge/hoppers</i> e <i>ripetitori/repeaters</i>.</li>
         </ul>
     </li>
     <li>Le <i>scatole di shulker bianche/white shulker box</i> vuote si stackerano a 64 una volta gettate a terra.</li>
@@ -85,7 +88,7 @@
         Ruolo <i>BOT</i>:
         <ul>
             <li>Eseguire il comando <i>/execute as NOME run function redcraft2:src/bots/commands/join_bot</i> per assegnare il ruolo <i>BOT</i> al giocatore "NOME". <b>Solo OP</b></li>
-            <li>Aggiunto comando <i>/trigger bot</i> che permette di far eseguire azioni al BOT pi&ugrave; vicino.</li>
+            <li>Aggiunto comando <i>/trigger bot</i> che permette di far eseguire azioni al BOT selezionato.</li>
         </ul>
     </li>
     <li>
@@ -99,10 +102,12 @@
     </li>
     <li>Aggiunto comando <i>/trigger stats set N</i> che permette di mostrare globalmente una score N. <a href="https://raw.githubusercontent.com/BisUmTo/DataPacks/master/RedCraft2/_sources/stats-list.txt">Visualizza la lista delle score N.</a></li>
     <li>Aggiunto comando <i>/trigger head set N</i> che permette di cambiare la texture di una <i>testa di giocatore/player head</i> a seconda del suo nome. Ulteriori info nel sguente <a href="https://youtu.be/saQ72-SE6lQ">video.</a></li>
-    <li>Gettando un <i>arbusto secco/dead bush</i>, <i>falce/fern</i>, <i>erba/grass</i>, <i>felce grande/large fern</i> o <i>erba alta/tall grass</i> rinominato "Placeable" su un blocco della presente <a href="https://raw.githubusercontent.com/BisUmTo/DataPacks/master/RedCraft2/data/minecraft/tags/blocks/mniuzos_blocks.json">lista</a>, verr&agrave; piazzato.</li>
+    <li>Gettando un <i>arbusto secco/dead bush</i>, <i>bacche dolci/sweet berries</i>, <i>falce/fern</i>, <i>erba/grass</i>, <i>felce grande/large fern</i> o <i>erba alta/tall grass</i> rinominato "Placeable" su un blocco con la superficie piana, verr&agrave; piazzato.</li>
+    <li>Gettando a terra un <i>arco/bow</i> con <i>ripristino/bow</i> vicino ad uno con <i>infinit&agrave;/infinity</i>, si unir&agrave; con il secondo, ricreando la possibilit&agrave; delle versioni <i>1.9-1.11.1</i> dove era possibile avere entrabi gli incantesimi sul medesimo <i>arco/bow</i>. <b>Funzione disabilitata di default</b></li>
     <li>Le <i>esperienze/experience orb</i> si stackerano quando si avvicineranno l'una all'altra. <b>Funzione disabilitata di default</b></li>
     <li>Unione con il datapack <i>floating text</i>: rinominando una <i>targhette/name tag</i> e posizionandola in una <i>cornice per oggetti/item frame</i>, verr&agrave; convertita in una scritta volante. <small>[by @SethBling]</small></li>
-    <li>Unione con il datapack <i>shulkerbox preview</i>: posizionando il cursore sopra ad una <i>scatola di shulker/shulker box</i>, sar&agrave; possibile vederne il contenuto. <b>Necessaria ResourcePack</b> <small>[by @Tryashtar]</small></li>
+    <li>Unione con il datapack <i>shulkerbox preview</i>: posizionando il cursore sopra ad una <i>scatola di shulker/shulker box</i>, sar&agrave; possibile vederne il contenuto. <b>Necessaria ResourcePack</b> <b>Funzione disabilitata di default</b> <small>[by @Tryashtar]</small></li>
+    <li>Unione con il datapack <i>more heads</i>: tutti i mob hanno la possibilit&agrave; di rilasciare la propria testa se uccisi da un player (Ad eccezione di <i>scheletri/skeletons</i>, <i>zombi/zombies</i>, <i>creeper</i> e <i>draghi omega/ender dragons</i>) <small>[by @XisumaVoid]</small></li>
     <li>Ottimizzazione prestazioni dei pesci.</li>
     <li>Aggiunto file di configurazione. Per applicare i config eseguire il comando <i>/function redcraft2:_config</i>. <b>Solo OP</b></li>
 </ul>
