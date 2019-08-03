@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "item": "minecraft:player_head",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "bisumto.redcraft2:heads"
+        }
+    ]
+}

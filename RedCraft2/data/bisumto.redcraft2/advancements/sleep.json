@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "run": {
+            "trigger": "minecraft:slept_in_bed"
+        }
+    },
+    "rewards": {
+        "function": "bisumto.redcraft2:src/beds/commands/in_bed"
+    }
+}
