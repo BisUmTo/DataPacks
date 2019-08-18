@@ -1,2 +1,0 @@
-# redcraft2:src/stats/scripts/binary_search/2437_2437
-scoreboard objectives setdisplay sidebar REDstat2437

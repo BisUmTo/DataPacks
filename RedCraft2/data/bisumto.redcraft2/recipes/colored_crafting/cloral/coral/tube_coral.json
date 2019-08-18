@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "coral",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "result": {
+        "item": "minecraft:tube_coral",
+        "count": 8
+    },
+    "key": {
+        "#": {
+            "tag": "bisumto.redcraft2:not_tube_corals"
+        },
+        "$": {
+            "item": "minecraft:blue_dye"
+        }
+    }
+}

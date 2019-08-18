@@ -1,6 +1,6 @@
 {
     "replace": true,
     "values": [
-        "redcraft2:install"
+        "bisumto.redcraft2:install"
     ]
 }

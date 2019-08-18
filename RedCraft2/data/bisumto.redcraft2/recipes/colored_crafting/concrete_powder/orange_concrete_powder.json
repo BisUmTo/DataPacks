@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "concrete_powder",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "bisumto.redcraft2:not_orange_concrete_powders"
+        },
+        "$": {
+            "item": "minecraft:orange_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_concrete_powder",
+        "count": 8
+    }
+}

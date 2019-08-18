@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "bisumto.redcraft2:red_sandstones"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_sand",
+    "count": 4
+  }
+}

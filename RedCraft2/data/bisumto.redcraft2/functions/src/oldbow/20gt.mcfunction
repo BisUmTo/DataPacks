@@ -1,0 +1,5 @@
+# bisumto.redcraft2:src/oldbow/20gt
+
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bow",tag:{Enchantments:[{id:"minecraft:mending"}]}}},nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:infinity"}]}}},nbt=!{Age:6000s}] at @s store success entity @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bow",tag:{Enchantments:[{id:"minecraft:infinity"}]}}},nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:mending"}]}}},limit=1,sort=nearest,distance=..1] Motion[1] double 0.4 store success entity @s Age short 6000 run data modify entity @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bow",tag:{Enchantments:[{id:"minecraft:infinity"}]}}},nbt=!{Item:{tag:{Enchantments:[{id:"minecraft:mending"}]}}},limit=1,sort=nearest,distance=..1] Item.tag.Enchantments prepend from entity @s Item.tag.Enchantments[]
+
+# 1 lines

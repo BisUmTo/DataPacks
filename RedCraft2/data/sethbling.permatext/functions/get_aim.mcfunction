@@ -1,0 +1,2 @@
+execute unless entity @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] run summon minecraft:area_effect_cloud ~ ~ ~ {"Tags":["Position"],"Duration":-1,"Age":-2147483648,"WaitTime":-2147483648}
+execute as @e[type=minecraft:area_effect_cloud,tag=Position,limit=1] run function sethbling.permatext:execute001_ln38

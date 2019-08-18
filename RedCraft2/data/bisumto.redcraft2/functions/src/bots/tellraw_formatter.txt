@@ -1,0 +1,6 @@
+tellraw @s ["",{"text":"Pannello di controllo di ","bold":true,"color":"dark_red"},{"selector":"@e[team=REDzbot,scores={REDBOTtmp=0}]","bold":true,"color":"red"}," ",
+{"text":"\u25c0","clickEvent":{"action":"run_command","value":"/trigger bot set -2"},"hoverEvent":{"action":"show_text","value":"Passa al BOT precedente"}}," ",
+{"text":"\u25b6","clickEvent":{"action":"run_command","value":"/trigger bot set -1"},"hoverEvent":{"action":"show_text","value":"Passa al BOT sucessivo"}},
+{"text":"\n\u273f "},{"text":"Inverti modalità di gioco [Sopravvivenza - Spettatore]","clickEvent":{"action":"run_command","value":"/trigger bot set 2"},"hoverEvent":{"action":"show_text","value":"Clicca per invertirla"}},
+{"text":"\n\u273f "},{"text":"Teletrasporta nella tua posizione","clickEvent":{"action":"run_command","value":"/trigger bot set 3"},"hoverEvent":{"action":"show_text","value":"Clicca per teletrasportarlo"}},
+{"text":"\n\u273f "},{"text":"Teletrasportati nella sua posizione","clickEvent":{"action":"run_command","value":"/trigger bot set 4"},"hoverEvent":{"action":"show_text","value":"Clicca per teletrasportarti"}}]
