@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP001\"]}"
+            },
+            "entity": "this"
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:smooth_stone_slab",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP002\"]}"
+            },
+            "entity": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP003\"]}"
+            },
+            "entity": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:flower_pot",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP004\"]}"
+            },
+            "entity": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP005\"]}"
+            },
+            "entity": "this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:campfire",
+          "conditions": [
+            {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{Tags:[\"REDASP006\"]}"
+            },
+            "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 # CONFIG #
 scoreboard objectives add config dummy [{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"}]
-execute unless score #CONFIGVERSION config matches 220 run function bisumto.redcraft2:_config
+execute unless score #CONFIGVERSION config matches 260 run function bisumto.redcraft2:_config
 
 # GAMERULE #
 gamerule doFireTick false
@@ -32,7 +32,8 @@ scoreboard players set 1728000 const 1728000
 function bisumto.redcraft2:src/load
 
 # CREDITS #
-tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.14.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"\n https://bisumto.it/redcraft2","color":"gold","clickEvent":{"action":"open_url","value":"https://bisumto.it/redcraft2"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"\n\n Credita BisUmTo se stai usando questa creazione.\n Non ri-caricare questo datapack: allegaci il link del mio sito!\n","color":"red"}]
+tellraw @a ["",{"text":"\n\n\n\n\n'","color":"gold","bold":true},{"text":"Red","bold":true,"color":"dark_red"},{"text":"Craft ","bold":true,"color":"red"},{"text":"2","bold":true,"color":"dark_red"},{"text":"' [1.14.X] ","color":"gold","bold":true},{"text":"by ","color":"none","bold":false},{"text":"BisUmTo","color":"red","bold":true},{"text":"    v.2.6.0","color":"gray"}]
+tellraw @a [{"text":" https://bisumto.it/redcraft2","color":"gold","clickEvent":{"action":"open_url","value":"https://bisumto.it/redcraft2"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"clicca per aprire il link ⤴","color":"dark_blue"}]}},"bold":false},{"text":"\n\n Credita BisUmTo se stai usando questa creazione.\n Non ri-caricare questo datapack: allegaci il link del mio sito!\n","color":"red"}]
 
 # VERSION #
 execute store result score #GAMEVERSION config run data get entity @a[limit=1] DataVersion

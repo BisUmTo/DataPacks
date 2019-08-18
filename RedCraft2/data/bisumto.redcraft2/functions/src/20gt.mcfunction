@@ -32,4 +32,4 @@ execute if score TimePlayed config matches 1 run function bisumto.redcraft2:src/
 #0# execute if score VillagerInventory config matches 1 run function bisumto.redcraft2:src/villagerinventory/20gt
 #0# execute if score XPMerging config matches 1 run function bisumto.redcraft2:src/xpmerging/20gt
 
-# 21 + (11 + 13 + (/) + 45349 + 4 + 8 + 38 + 11 + 2 + 74 + 32 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines
+# 21 + (11 + 13 + (/) + 45349 + 4 + 8 + (?) + 38 + 11 + 2 + 74 + 32 + 2 + 11 + 14 + 4 + 6 + 6 + (?) + 39 + 26 + 18) lines

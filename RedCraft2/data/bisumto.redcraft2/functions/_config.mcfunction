@@ -1,7 +1,7 @@
 # bisumto.redcraft2:_config
 
 scoreboard players reset * config
-scoreboard players set #CONFIGVERSION config 220
+scoreboard players set #CONFIGVERSION config 260
 
 gamerule sendCommandFeedback false
 scoreboard players set SendCommandFeedback config 1
