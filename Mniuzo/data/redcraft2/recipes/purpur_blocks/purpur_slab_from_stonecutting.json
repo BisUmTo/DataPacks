@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "minecraft:purpur_stairs"
+    },
+    {
+      "item": "minecraft:purpur_pillar"
+    }
+  ],
+  "result": "minecraft:purpur_slab",
+  "count": 2
+}

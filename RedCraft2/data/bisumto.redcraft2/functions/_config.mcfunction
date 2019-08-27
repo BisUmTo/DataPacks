@@ -1,7 +1,7 @@
 # bisumto.redcraft2:_config
 
 scoreboard players reset * config
-scoreboard players set #CONFIGVERSION config 261
+scoreboard players set #CONFIGVERSION config 262
 
 gamerule sendCommandFeedback false
 scoreboard players set SendCommandFeedback config 1
@@ -11,6 +11,7 @@ scoreboard players set ArmorstandPlus config 1
     scoreboard players set ArmorstandRotation config 0
 scoreboard players set Beds config 1
     scoreboard players set MultiplayerBed config 0
+    scoreboard players set MultiplayerBedMessage config 0
     scoreboard players set InstantBed config 1
 scoreboard players set Bots config 1
 scoreboard players set ColoredShulkers config 0

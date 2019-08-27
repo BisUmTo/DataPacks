@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/parrot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:\"d890586d-3e18-41fc-a93d-9040dc25409b\",Name:\"Red Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:0}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:\"3ac775c2-c701-4ccd-bec2-5cc7a5c0bb7a\",Name:\"Blue Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:1}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:\"b95a9198-cf0b-4cfa-bf6d-2f172dc6ee65\",Name:\"Green Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:2}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:\"0bd02c77-cd3f-4bf4-9d02-89cd7f58e06c\",Name:\"Cyan Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:3}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:\"2a8680dd-7875-4c83-810a-5b866a3d4433\",Name:\"Gray Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:4}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

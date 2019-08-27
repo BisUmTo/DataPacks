@@ -3,4 +3,4 @@
 #0# execute if score InstantBed config matches 1 run function bisumto.redcraft2:src/beds/subfunctions/instantbed/1gt
 execute if score MultiplayerBed config matches 1 run function bisumto.redcraft2:src/beds/subfunctions/multiplayerbed/1gt
 
-# 1 + 10 lines
+# 1 + 9 lines

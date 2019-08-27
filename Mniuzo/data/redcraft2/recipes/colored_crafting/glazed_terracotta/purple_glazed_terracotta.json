@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "glazed_terracotta",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "redcraft2:not_purple_glazed_terracottas"
+        },
+        "$": {
+            "item": "minecraft:purple_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:purple_glazed_terracotta",
+        "count": 8
+    }
+}

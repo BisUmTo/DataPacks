@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "concrete",
+    "pattern": [
+        "###",
+        "#$#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "redcraft2:not_lime_concretes"
+        },
+        "$": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_concrete",
+        "count": 8
+    }
+}
